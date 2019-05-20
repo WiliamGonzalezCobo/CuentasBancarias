@@ -1,0 +1,43 @@
+﻿@model SistemaEncuestas.WebSite.Models.CompartirViewModel
+
+@Html.AntiForgeryToken()
+
+@Html.HiddenFor(model => model.IdEmpresa)
+
+<div class="modal-body">
+    <div class="row">
+        <div class="col-sm-10">
+            <div class="form-group">
+                @Html.TextBoxFor(model => model.Url, new { @class = "form-control readonly", @readonly = "readonly" })
+                @Html.LabelFor(model => model.Url)
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <a href="javascript:void(0);" class="btn btn-default fa fa-copy btn-copy" data-clipboard-target="#Url"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                @Html.TextBoxFor(model => model.Correos, new { @class = "form-control" })
+                @Html.LabelFor(model => model.Correos)
+                @Html.ValidationMessageFor(model => model.Correos, "", new { @class = "help-block" })
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                @Html.TextBoxFor(model => model.Asunto, new { @class = "form-control" })
+                @Html.LabelFor(model => model.Asunto)
+                @Html.ValidationMessageFor(model => model.Asunto, "", new { @class = "help-block" })
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</div>

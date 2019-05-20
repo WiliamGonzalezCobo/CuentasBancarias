@@ -1,0 +1,11 @@
+﻿@model IEnumerable<SistemaBanc.WebCliente.Models.CuentaModel>
+
+@{
+    ViewBag.Title = "Cuenta Bancaria";
+}
+
+<h2>Bienvenido a su Cuenta</h2>
+<section id="CuentaBancaria">
+    @Html.Partial("_PartialCuentasCliente", Model)
+</section>
+

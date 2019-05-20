@@ -1,0 +1,48 @@
+﻿@model MODELOS_ENTITIES.cuenta
+
+@{
+    ViewBag.Title = "Borrar";
+}
+
+<h2>Delete</h2>
+
+<h3>¿Esta seguro que quiere borrar esta cuenta?</h3>
+<div>
+    <h4>cuenta</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.cliente.nombres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cliente.nombres)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.saldo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.saldo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_creacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_creacion)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-default" /> |
+            @Html.ActionLink("Regresar", "Index")
+        </div>
+    }
+</div>

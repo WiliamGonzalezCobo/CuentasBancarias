@@ -1,0 +1,171 @@
+﻿@{
+    ViewBag.Title = "Reportes de las respuestas";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+@*<link type="text/css" rel="stylesheet" href="~/Content/libs/datatables/jquery.dataTables.css" />
+<link type="text/css" rel="stylesheet" href="~/Content/libs/datatables/jquery.dataTables.buttons.min.css" />
+
+<script type="text/javascript" language="javascript" src="~/Scripts/jquery/jquery-1.12.4.js"></script>
+<script src="~/Scripts/libs/datatables/jquery.dataTables.min-1.10.15.js"></script>
+
+<script src="~/Scripts/libs/datatables/dataTables.buttons.min.js"></script>
+<script src="~/Scripts/libs/datatables/buttons.flash.min.js"></script>
+<script src="~/Scripts/libs/datatables/jszip.min.js"></script>
+<script src="~/Scripts/libs/datatables/pdfmake.min.js"></script>
+<script src="~/Scripts/libs/datatables/vfs_fonts.js"></script>
+<script src="~/Scripts/libs/datatables/buttons.html5.min.js"></script>
+<script src="~/Scripts/libs/datatables/buttons.print.min.js"></script>*@
+
+@*Librerias charts*@
+@*<link href="~/Content/libs/morris/morris.core.css?1420463396" rel="stylesheet" />
+<link href="~/Content/libs/rickshaw/rickshaw.css?1420463396" rel="stylesheet" />
+
+<script src="~/Scripts/libs/flot/jquery.flot.min.js"></script>
+<script src="~/Scripts/libs/flot/jquery.flot.time.min.js"></script>
+<script src="~/Scripts/libs/flot/jquery.flot.resize.min.js"></script>
+<script src="~/Scripts/libs/flot/jquery.flot.orderBars.js"></script>
+<script src="~/Scripts/libs/flot/jquery.flot.pie.js"></script>
+<script src="~/Scripts/libs/flot/curvedLines.js"></script>
+<script src="~/Scripts/libs/jquery-knob/jquery.knob.min.js"></script>
+<script src="~/Scripts/libs/sparkline/jquery.sparkline.min.js"></script>
+<script src="~/Scripts/libs/nanoscroller/jquery.nanoscroller.min.js"></script>
+<script src="~/Scripts/libs/raphael/raphael.min.js"></script>
+<script src="~/Scripts/libs/morris/morris.min.js"></script>
+<script src="~/Scripts/libs/d3/d3.min.js"></script>
+<script src="~/Scripts/libs/d3/d3.v3.js"></script>
+<script src="~/Scripts/libs/rickshaw/rickshaw.min.js"></script>
+<script src="~/Scripts/libs/Demo.js"></script
+<script src="~/Scripts/libs/chart/Chart.js"></script>*@
+
+<div class="container">
+
+    <div id="ContenedorCharts" class="col-md-6"></div>
+
+    <table id="ReportePreguntas" class="display nowrap" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+<script>
+    $(document).ready(function () {
+        var jsonOriginal;
+
+        $('#ReportePreguntas').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'copy', 'csv', 'excel', 'pdf', 'print'
+            ],
+            "ajax": '../Source/Respuestas.json',
+            "order": [],
+            "colVis": {
+                "buttonText": "Columnas",
+                "overlayFade": 0,
+                "align": "right"
+            },
+            "language": {
+                "lengthMenu": '_MENU_ entradas por página',
+                "zeroRecords": "No se encontraron registros",
+                "info": "Mostrando página _PAGE_ de _PAGES_",
+                "infoEmpty": "No se encontraron registros",
+                "search": '<i class="fa fa-search"></i>',
+                "columnButton": "Columnas",
+                "infoFiltered": "(Se filtraron _MAX_ registros)",
+                "paginate": {
+                    "previous": '<i class="fa fa-angle-left"></i>',
+                    "next": '<i class="fa fa-angle-right"></i>'
+                }
+            }
+        });
+
+
+        $('#ReportePreguntas tbody').on('click', 'tr', function () {
+            $(this).toggleClass('selected');
+        });
+
+        //Invocamos Accion que retorna el json con el conteo de las respuestas
+        $.ajax({
+            url: "@Url.Action("RespuestasCountJson", "Encuesta")",
+            type: 'POST',
+            data: { idEncuesta: "@ViewBag.IdEncuesta", idEmpresa: "@ViewBag.IdEmpresa" },
+            success: function (JSONResult) {
+
+                var tempIdPregunta = ""
+
+                for (var i = 0; i < JSONResult.length ; i++) {
+                    if (tempIdPregunta != JSONResult[i].IdPregunta) {
+                        tempIdPregunta = JSONResult[i].IdPregunta;
+                        $("#ContenedorCharts").append('<h2>' + JSONResult[i].Descripcion + '</h2><canvas id="myChart' + JSONResult[i].IdPregunta + '"></canvas>');
+                    }
+                }
+                pintarGraficas(JSONResult);
+            }
+        });
+    });
+
+    function pintarGraficas(jsonCountRespuestas) {
+        console.log(jsonCountRespuestas);
+
+        var labels = [], data = [];
+        var tempIdPregunta = ""
+
+        for (var i = 0; i < jsonCountRespuestas.length ; i++) {
+
+            if (tempIdPregunta != jsonCountRespuestas[i].IdPregunta) {
+                tempIdPregunta = jsonCountRespuestas[i].IdPregunta;
+
+                var ctx = $("#myChart" + jsonCountRespuestas[i].IdPregunta);
+                labels = [], data = [];
+
+            }
+            labels.push(jsonCountRespuestas[i].Respuesta);
+            data.push(jsonCountRespuestas[i].Cantidad);
+
+
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                    {
+                        label: "Conteo Respuestas",
+                        fillColor: "rgba(220,220,220,0.2)",
+                        strokeColor: "rgba(220,220,220,1)",
+                        pointColor: "rgba(220,220,220,1)",
+                        pointStrokeColor: "#fff",
+                        pointHighlightFill: "#fff",
+                        pointHighlightStroke: "rgba(220,220,220,1)",
+                        data: data
+                    }
+                    ]
+                }
+
+
+            });
+
+
+        }
+
+        //var ctx = document.getElementById("myChart").getContext("2d");
+
+    }
+</script>

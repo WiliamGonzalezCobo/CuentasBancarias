@@ -1,0 +1,110 @@
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\csc.exe
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\vbc.exe
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\VBCSCompiler.exe
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.WebCliente.dll.config
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.WebCliente.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.WebCliente.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\Antlr3.Runtime.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\Newtonsoft.Json.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.Entities.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.LogicaNegocio.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.Utils.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Helpers.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Mvc.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Optimization.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Razor.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.Razor.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\WebGrease.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Net.Http.Formatting.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.Entities.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.LogicaNegocio.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.Utils.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\Newtonsoft.Json.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Helpers.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Mvc.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Optimization.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Razor.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.Razor.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\Antlr3.Runtime.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\System.Net.Http.Formatting.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.Helpers.resources.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.Mvc.resources.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.Optimization.resources.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.Razor.resources.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.WebPages.resources.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\obj\Debug\SistemaBanc.WebCliente.csprojResolveAssemblyReference.cache
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\obj\Debug\SistemaBanc.WebCliente.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.WebCliente\obj\Debug\SistemaBanc.WebCliente.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\csc.exe
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\System.Collections.Immutable.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\System.Reflection.Metadata.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\vbc.exe
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\VBCSCompiler.exe
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\roslyn\VBCSCompiler.exe.config
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.WebCliente.dll.config
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.WebCliente.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.WebCliente.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\Antlr3.Runtime.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\Microsoft.Web.Infrastructure.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\Newtonsoft.Json.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.Entities.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.LogicaNegocio.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.Utils.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Helpers.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Mvc.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Optimization.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Razor.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.Deployment.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.Razor.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\WebGrease.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Net.Http.Formatting.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.Entities.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.LogicaNegocio.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\SistemaBanc.Utils.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\Newtonsoft.Json.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Helpers.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Mvc.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Optimization.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.Razor.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.Deployment.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Web.WebPages.Razor.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\Antlr3.Runtime.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\System.Net.Http.Formatting.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.Helpers.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.Mvc.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.Optimization.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.Razor.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.WebPages.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\obj\Debug\SistemaBanc.WebCliente.csprojResolveAssemblyReference.cache
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\obj\Debug\SistemaBanc.WebCliente.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.WebCliente\obj\Debug\SistemaBanc.WebCliente.pdb

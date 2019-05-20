@@ -1,0 +1,35 @@
+﻿@model SistemaEncuestas.WebSite.Models.RegistroEmpresaViewModel
+
+<br /><br />
+<div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.Nit, new { @class = "form-control" })
+            @Html.LabelFor(model => model.Nit)
+            @Html.ValidationMessageFor(model => model.Nit, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control" })
+            @Html.LabelFor(model => model.Nombre)
+            @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "help-block" })
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.Direccion, new { @class = "form-control" })
+            @Html.LabelFor(model => model.Direccion)
+            @Html.ValidationMessageFor(model => model.Direccion, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.SitioWeb, new { @class = "form-control" })
+            @Html.LabelFor(model => model.SitioWeb)
+            @Html.ValidationMessageFor(model => model.SitioWeb, "", new { @class = "help-block" })
+        </div>
+    </div>
+</div>

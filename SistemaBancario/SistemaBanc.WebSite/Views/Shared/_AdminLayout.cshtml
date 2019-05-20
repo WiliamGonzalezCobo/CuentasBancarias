@@ -1,0 +1,168 @@
+﻿    <!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title - Sistema de encuestas Administrador</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de gestión de encuestas.">
+    <link href="~/Content/images/poll.png" rel="icon" type="image/png" />
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400italic,300,400,600,700,800' rel='stylesheet' type='text/css' />
+    <link type="text/css" rel="stylesheet" href="~/Content/bootstrap/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/Site.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/util.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/font-awesome/font-awesome.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/material-design-iconic/material-design-iconic-font.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/libs/rickshaw/rickshaw.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/libs/morris/morris.core.css" />
+
+    <script src="~/Scripts/libs/jquery/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/libs/validation/jquery.validate.min.js"></script>
+    <script src="~/Scripts/libs/validation/jquery.validate.unobtrusive.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="~/Scripts/libs/utils/html5shiv.js"></script>
+    <script type="text/javascript" src="~/Scripts/libs/utils/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="menubar-hoverable header-fixed ">
+    <header id="header">
+        <div class="headerbar">
+            <div class="headerbar-left">
+                <ul class="header-nav header-nav-options">
+                    <li class="header-nav-brand">
+                        <div class="brand-holder">
+                            <a href="@Url.Action("Dashboard", "MainAdministrador")">
+                                <span class="text-lg text-bold text-primary">SISTEMA ENCUESTAS ADMIN</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="btn btn-icon-toggle menubar-toggle" data-toggle="menubar" href="javascript:void(0);">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="headerbar-right">
+                <ul class="header-nav header-nav-options">
+                    <li class="dropdown hidden-xs">
+                        <a href="javascript:void(0);" class="btn btn-icon-toggle btn-default" data-toggle="dropdown">
+                            <i class="fa fa-bell"></i><sup class="badge style-danger">4</sup>
+                        </a>
+                        <ul class="dropdown-menu animation-expand">
+                            <li class="dropdown-header">Mensajes</li>
+                            <li>
+                                <a class="alert alert-callout alert-warning" href="javascript:void(0);">
+                                    <strong>Alex Anistor</strong><br />
+                                    <small>Testing functionality...</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="alert alert-callout alert-info" href="javascript:void(0);">
+                                    <strong>Alicia Adell</strong><br />
+                                    <small>Reviewing last changes...</small>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="header-nav header-nav-profile">
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle ink-reaction" data-toggle="dropdown">
+                            <img src="~/Content/images/user1.png" alt="" />
+                            <span class="profile-info">
+                                Daniel Johnson
+                                <small>Administrador</small>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu animation-dock">
+                            <li class="dropdown-header">
+                                Menú
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Configuración</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="@Url.Action("Login", "Administrador")">
+                                    <i class="fa fa-fw fa-power-off text-danger"></i> Cerrar sesión
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id="base">
+        <div id="content">
+            @RenderBody()
+        </div>
+        <div id="menubar" class="menubar-inverse ">
+            <div class="menubar-fixed-panel">
+                <div>
+                    <a class="btn btn-icon-toggle btn-default menubar-toggle" data-toggle="menubar" href="javascript:void(0);">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <div class="expanded">
+                    <a href="@Url.Action("Dashboard", "MainAdministrador")">
+                        <span class="text-lg text-bold text-primary ">SISTEMA ENCUESTAS ADMIN</span>
+                    </a>
+                </div>
+            </div>
+            <div class="menubar-scroll-panel">
+                <ul id="main-menu" class="gui-controls">
+                    <li>
+                        <a href="@Url.Action("Dashboard", "MainAdministrador")" class="active">
+                            <div class="gui-icon"><i class="fa fa-home"></i></div>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="menubar-foot-panel">
+                    <small class="no-linebreak hidden-folded">
+                        <span class="opacity-75">Copyright &copy; 2017</span> <strong>Sistema de encuestas</strong>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Scripts/libs/jquery/jquery-migrate-3.0.0.min.js"></script>
+    <script src="~/Scripts/libs/jquery-ui/jquery-ui.min.js"></script>
+    <script src="~/Scripts/libs/bootstrap/bootstrap.min.js"></script>
+    <script src="~/Scripts/libs/nanoscroller/jquery.nanoscroller.min.js"></script>
+    <script src="~/Scripts/libs/autosize/jquery.autosize.min.js"></script>
+    <script src="~/Scripts/libs/toastr/toastr.js"></script>
+    <script src="~/Scripts/libs/spin/spin.js"></script>
+    <script src="~/Scripts/libs/moment/moment.js"></script>
+    <script src="~/Scripts/libs/flot/jquery.flot.min.js"></script>
+    <script src="~/Scripts/libs/flot/jquery.flot.time.min.js"></script>
+    <script src="~/Scripts/libs/flot/jquery.flot.resize.min.js"></script>
+    <script src="~/Scripts/libs/flot/jquery.flot.orderBars.js"></script>
+    <script src="~/Scripts/libs/flot/jquery.flot.pie.js"></script>
+    <script src="~/Scripts/libs/flot/curvedLines.js"></script>
+    <script src="~/Scripts/libs/jquery-knob/jquery.knob.min.js"></script>
+    <script src="~/Scripts/libs/sparkline/jquery.sparkline.min.js"></script>
+    <script src="~/Scripts/libs/d3/d3.min.js"></script>
+    <script src="~/Scripts/libs/d3/d3.v3.js"></script>
+    <script src="~/Scripts/libs/rickshaw/rickshaw.min.js"></script>
+
+    <script src="~/Scripts/core/source/App.js"></script>
+    <script src="~/Scripts/core/source/AppCard.js"></script>
+    <script src="~/Scripts/core/source/AppForm.js"></script>
+    <script src="~/Scripts/core/source/AppNavigation.js"></script>
+    <script src="~/Scripts/core/source/AppNavSearch.js"></script>
+    <script src="~/Scripts/core/source/AppVendor.js"></script>
+
+    <script src="~/Scripts/core/demo/Demo.js"></script>
+    <script src="~/Scripts/core/demo/DemoDashboard.js"></script>
+
+    <script src="~/Scripts/custom/ValidacionesCliente.js"></script>
+    <script src="~/Scripts/custom/Mensajes.js"></script>
+</body>
+</html>

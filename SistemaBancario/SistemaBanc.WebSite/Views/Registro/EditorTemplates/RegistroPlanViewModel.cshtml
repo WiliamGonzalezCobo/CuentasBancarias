@@ -1,0 +1,17 @@
+﻿@model SistemaEncuestas.WebSite.Models.RegistroPlanViewModel
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.DropDownListFor(model => model.Id, (IEnumerable<SelectListItem>)ViewBag.ListaComboPlanes, new { @class = "form-control" })
+            @Html.LabelFor(model => model.Id)
+            @Html.ValidationMessageFor(model => model.Id, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.Precio, new { @class = "form-control readonly", @readonly = "readonly" })
+            @Html.LabelFor(model => model.Precio)
+        </div>
+    </div>
+</div>

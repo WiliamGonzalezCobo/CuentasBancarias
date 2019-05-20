@@ -1,0 +1,42 @@
+﻿@model MODELOS_ENTITIES.usuario
+
+@{
+    ViewBag.Title = "Detalles Usuario";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>usuario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.cliente.nombres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cliente.nombres)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.usuario1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.usuario1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.contrasenia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.contrasenia)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.id_usuario }) |
+    @Html.ActionLink("Regresar", "Index")
+</p>

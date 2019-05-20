@@ -1,0 +1,123 @@
+﻿@model SistemaEncuestas.WebSite.Models.ContactoViewModel
+@{
+    ViewBag.Title = "Contáctenos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section>
+    <div class="section-body contain-lg">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>
+                    Contáctenos mediante el siguiente formulario para cualquier consulta, solicitud de información o simplemente para hacernos conocer sus comentarios e inquietudes...
+                </h2>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <div class="col-lg-12">
+
+                @using (Html.BeginForm("Contacto", "Contactenos", FormMethod.Post, new { autocomplete = "off", id = "formContacto", @class = "form form-validate" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="card">
+                        <div class="card-head">
+                            <header>
+                                Contáctenos
+                            </header>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control" })
+                                        @Html.LabelFor(model => model.Nombre)
+                                        @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "help-block" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                                        @Html.LabelFor(model => model.Email)
+                                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "help-block" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        @Html.TextBoxFor(model => model.Asunto, new { @class = "form-control" })
+                                        @Html.LabelFor(model => model.Asunto)
+                                        @Html.ValidationMessageFor(model => model.Asunto, "", new { @class = "help-block" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        @Html.TextAreaFor(model => model.Mensaje, new { @class = "form-control autosize", rows = "1" })
+                                        @Html.LabelFor(model => model.Mensaje)
+                                        @Html.ValidationMessageFor(model => model.Mensaje, "", new { @class = "help-block" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-actionbar">
+                            <div class="card-actionbar-row">
+                                <input type="submit" value="Enviar" class="btn btn-primary ink-reaction" />
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <div class="col-md-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.694216894069!2d-74.06376288569476!3d4.648523296623257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a471ae789cb%3A0x31b53de2d1fac595!2sFundaci%C3%B3n+Universitaria+Konrad+Lorenz!5e0!3m2!1ses-419!2sco!4v1487394536494" class="col-md-12" frameborder="0" style="border: 0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <div class="col-md-12">
+                <address>
+                    <strong class="text-bold">Dirección:</strong> Bogotá - Col, Carrera 9 Bis No. 62 - 43<br />
+                    <abbr title="Phone" class="text-bold">Tel:</abbr> (+57 1) 347 23 22
+                </address>
+                <address>
+                    <strong class="text-bold">Soporte:</strong>   <a href="mailto:support@encuestasapp.com">support@encuestasapp.com</a><br />
+                    <strong class="text-bold">Marketing:</strong> <a href="mailto:marketing@encuestasapp.com">marketing@encuestasapp.com</a>
+                </address>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+@if (!string.IsNullOrWhiteSpace(ViewBag.MensajeError))
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            mensaje("error", "@ViewBag.MensajeError");
+        });
+    </script>
+}
+
+@if (!string.IsNullOrWhiteSpace(ViewBag.MensajeSuccess))
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            mensaje("success", "@ViewBag.MensajeSuccess");
+        });
+    </script>
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1c20819a67f44439857e5a0e1f100d8e" Name="Diagram1">
+        <EntityTypeShape EntityType="SistemaBancarioModel.cliente" Width="1.5" PointX="5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaBancarioModel.cliente_cuenta" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaBancarioModel.cuenta" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaBancarioModel.tipo_identificacion" Width="1.5" PointX="2.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaBancarioModel.tipo_transaccion" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaBancarioModel.transaccion" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaBancarioModel.usuario" Width="1.5" PointX="7.25" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="SistemaBancarioModel.fk_cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaBancarioModel.fk_tipo_identificacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaBancarioModel.fk_cuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaBancarioModel.fk_tipotransaccion" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

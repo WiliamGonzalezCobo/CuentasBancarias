@@ -1,0 +1,102 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section>
+    <div class="section-body contain-lg">
+        <div class="row">
+            <div id="carouselMain" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselMain" data-slide-to="1"></li>
+                    <li data-target="#carouselMain" data-slide-to="2"></li>
+                    <li data-target="#carouselMain" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="@Url.Content("~/Content/images/img11.jpg")" alt="Revisar" style="width: 100%; height: 345px;">
+                    </div>
+
+                    <div class="item">
+                        <img src="@Url.Content("~/Content/images/img10.jpg")" alt="Tecnología" style="width: 100%; height: 345px;">
+                    </div>
+
+                    <div class="item">
+                        <img src="@Url.Content("~/Content/images/img2.jpg")" alt="Realizar" style="width: 100%; height: 345px;">
+                    </div>
+
+                    <div class="item">
+                        <img src="@Url.Content("~/Content/images/img4.jpg")" alt="Analizar" style="width: 100%; height: 345px;">
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#carouselMain" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="right carousel-control" href="#carouselMain" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <h1 class="text-bold">
+                SISTEMA DE GESTIÓN DE ENCUESTAS
+            </h1>
+            <p class="text-light lead">
+                Facilitamos que su negocio, realice un mejor estudio, de sus clientes.
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="card">
+                    <div class="card-head">
+                        <header>
+                            CREAR ENCUESTA
+                        </header>
+                    </div>
+                    <div class="card-body">
+                        <blockquote>
+                            <p>
+                                Cree sus encuestas de forma dinámica, con cualquier tipo de campos, no hay restricciones.
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="card">
+                    <div class="card-head">
+                        <header>
+                            RECOPILAR RESPUESTAS
+                        </header>
+                    </div>
+                    <div class="card-body">
+                        <blockquote>
+                            <p>Toda su información estará disponible en cualquier momento.</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="card">
+                    <div class="card-head">
+                        <header>
+                            ANALIZAR RESULTADOS
+                        </header>
+                    </div>
+                    <div class="card-body">
+                        <blockquote>
+                            <p>Ofrecemos una amplia gama de gráficos que facilitaran la lectura de las encuestas creadas.</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

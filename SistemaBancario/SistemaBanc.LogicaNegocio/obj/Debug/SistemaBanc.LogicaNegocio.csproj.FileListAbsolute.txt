@@ -1,0 +1,24 @@
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\SistemaBanc.LogicaNegocio.dll.config
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\SistemaBanc.LogicaNegocio.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\SistemaBanc.LogicaNegocio.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\SistemaBanc.Entities.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\SistemaBanc.Entities.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\obj\Debug\SistemaBanc.LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\obj\Debug\SistemaBanc.LogicaNegocio.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\obj\Debug\SistemaBanc.LogicaNegocio.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\SistemaBanc.LogicaNegocio.dll.config
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\SistemaBanc.LogicaNegocio.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\SistemaBanc.LogicaNegocio.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\SistemaBanc.Entities.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\System.Net.Http.Formatting.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\SistemaBanc.Entities.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Debug\System.Net.Http.Formatting.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\obj\Debug\SistemaBanc.LogicaNegocio.csprojResolveAssemblyReference.cache
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\obj\Debug\SistemaBanc.LogicaNegocio.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.LogicaNegocio\obj\Debug\SistemaBanc.LogicaNegocio.pdb

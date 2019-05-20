@@ -1,0 +1,4 @@
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Entities\bin\Release\SistemaBanc.Entities.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Entities\bin\Release\SistemaBanc.Entities.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Entities\obj\Release\SistemaBanc.Entities.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Entities\obj\Release\SistemaBanc.Entities.pdb

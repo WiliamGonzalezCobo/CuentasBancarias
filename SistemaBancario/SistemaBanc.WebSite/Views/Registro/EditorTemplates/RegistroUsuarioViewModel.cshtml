@@ -1,0 +1,60 @@
+﻿@model SistemaEncuestas.WebSite.Models.RegistroUsuarioViewModel
+
+<br /><br />
+<div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control" })
+            @Html.LabelFor(model => model.Nombre)
+            @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.PrimerApellido, new { @class = "form-control" })
+            @Html.LabelFor(model => model.PrimerApellido)
+            @Html.ValidationMessageFor(model => model.PrimerApellido, "", new { @class = "help-block" })
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.SegundoApellido, new { @class = "form-control" })
+            @Html.LabelFor(model => model.SegundoApellido)
+            @Html.ValidationMessageFor(model => model.SegundoApellido, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.Correo, new { @class = "form-control" })
+            @Html.LabelFor(model => model.Correo)
+            @Html.ValidationMessageFor(model => model.Correo, "", new { @class = "help-block" })
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.Login, new { @class = "form-control" })
+            @Html.LabelFor(model => model.Login)
+            @Html.ValidationMessageFor(model => model.Login, "", new { @class = "help-block" })
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.Password, new { @class = "form-control" })
+            @Html.LabelFor(model => model.Password)
+            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.ConfirmPassword, new { @class = "form-control" })
+            @Html.LabelFor(model => model.ConfirmPassword)
+            @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "help-block" })
+        </div>
+    </div>
+</div>

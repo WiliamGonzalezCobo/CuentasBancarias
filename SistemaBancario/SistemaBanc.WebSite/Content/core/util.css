@@ -1,0 +1,23 @@
+﻿.field-validation-error {
+    color: red;
+}
+
+.span-logo {
+    display: inline-block;
+}
+
+.padding-ul {
+    padding: 5px 0 0 !important;
+}
+
+@media(max-width: 300px) {
+    .span-logo {
+        display: none;
+    }
+}
+
+@media(min-width: 769px) {
+    .padding-ul {
+        padding: 5px 10px 0 0 !important;
+    }
+}

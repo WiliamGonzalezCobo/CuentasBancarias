@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E2D4656-2463-4438-AA67-35CBCAFADB08}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemaEncuestas.WebSite</RootNamespace>
+    <AssemblyName>SistemaEncuestas.WebSite</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap\bootstrap.css" />
+    <Content Include="Content\core\Site.css" />
+    <Content Include="Content\core\util.css" />
+    <Content Include="Content\font-awesome\font-awesome.css" />
+    <Content Include="Content\font-awesome\font-awesome.min.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="Content\images\img10.jpg" />
+    <Content Include="Content\images\img11.jpg" />
+    <Content Include="Content\images\img16.jpg" />
+    <Content Include="Content\images\img2.jpg" />
+    <Content Include="Content\images\img4.jpg" />
+    <Content Include="Content\images\poll.png" />
+    <Content Include="Content\images\user1.png" />
+    <Content Include="Content\libs\datatables\extensions\dataTables.colVis.css" />
+    <Content Include="Content\libs\datatables\extensions\dataTables.tableTools.css" />
+    <Content Include="Content\libs\datatables\img\back_disabled.png" />
+    <Content Include="Content\libs\datatables\img\back_enabled.png" />
+    <Content Include="Content\libs\datatables\img\back_enabled_hover.png" />
+    <Content Include="Content\libs\datatables\img\forward_disabled.png" />
+    <Content Include="Content\libs\datatables\img\forward_enabled.png" />
+    <Content Include="Content\libs\datatables\img\forward_enabled_hover.png" />
+    <Content Include="Content\libs\datatables\img\sort_asc.png" />
+    <Content Include="Content\libs\datatables\img\sort_asc_disabled.png" />
+    <Content Include="Content\libs\datatables\img\sort_both.png" />
+    <Content Include="Content\libs\datatables\img\sort_desc.png" />
+    <Content Include="Content\libs\datatables\img\sort_desc_disabled.png" />
+    <Content Include="Content\libs\datatables\jquery.dataTables.buttons.min.css" />
+    <Content Include="Content\libs\datatables\jquery.dataTables.css" />
+    <Content Include="Content\libs\datatables\TableTools.css" />
+    <Content Include="Content\libs\morris\morris.core.css" />
+    <Content Include="Content\libs\rickshaw\rickshaw.css" />
+    <Content Include="Content\libs\toastr\toastr.css" />
+    <Content Include="Content\libs\wizard\wizard.css" />
+    <Content Include="Content\material-design-iconic\material-design-iconic-font.css" />
+    <Content Include="Content\material-design-iconic\material-design-iconic-font.min.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="Content\fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="Content\fonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="Scripts\libs\bootstrap-wizard\jquery.bootstrap.wizard.min.js" />
+    <Content Include="Scripts\libs\bootstrap\bootstrap.js" />
+    <Content Include="Scripts\libs\bootstrap\bootstrap.min.js" />
+    <Content Include="Scripts\core\source\App.js" />
+    <Content Include="Scripts\core\source\App.min.js" />
+    <Content Include="Scripts\core\source\AppCard.js" />
+    <Content Include="Scripts\core\source\AppForm.js" />
+    <Content Include="Scripts\core\source\AppNavigation.js" />
+    <Content Include="Scripts\core\source\AppNavSearch.js" />
+    <Content Include="Scripts\core\source\AppVendor.js" />
+    <Content Include="Scripts\custom\Mensajes.js" />
+    <Content Include="Scripts\custom\ValidacionesCliente.js" />
+    <Content Include="Diagram\ClassDiagram_WebSite.cd" />
+    <None Include="Scripts\libs\jquery\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\custom\ValidacionesTarjeta.js" />
+    <Content Include="Scripts\custom\VisualizarEncuesta.js" />
+    <Content Include="Scripts\libs\jquery\jquery-1.12.4.js" />
+    <Content Include="Scripts\libs\jquery\jquery-3.1.1.js" />
+    <Content Include="Scripts\libs\jquery\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\libs\jquery\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\libs\jquery\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\libs\jquery\jquery-migrate-3.0.0.js" />
+    <Content Include="Scripts\libs\jquery\jquery-migrate-3.0.0.min.js" />
+    <Content Include="Scripts\libs\chart\Chart.js" />
+    <Content Include="Scripts\libs\clipboard\clipboard.js" />
+    <Content Include="Scripts\libs\datatables\extensions\Responsive\css\dataTables.responsive.scss" />
+    <Content Include="Scripts\libs\datatables\extensions\Responsive\Readme.md" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\psd\collection.psd" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\psd\copy document.psd" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\psd\file_types.psd" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\psd\printer.psd" />
+    <None Include="Scripts\libs\validation\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\libs\autosize\jquery.autosize.js" />
+    <Content Include="Scripts\libs\autosize\jquery.autosize.min.js" />
+    <Content Include="Scripts\libs\d3\d3.layout.min.js" />
+    <Content Include="Scripts\libs\d3\d3.min.js" />
+    <Content Include="Scripts\libs\d3\d3.v3.js" />
+    <Content Include="Scripts\core\demo\DemoDashboard.js" />
+    <Content Include="Scripts\libs\datatables\extensions\AutoFill\css\dataTables.autoFill.css" />
+    <Content Include="Scripts\libs\datatables\extensions\AutoFill\css\dataTables.autoFill.min.css" />
+    <Content Include="Scripts\libs\datatables\extensions\AutoFill\images\filler.png" />
+    <Content Include="Scripts\libs\datatables\extensions\AutoFill\js\dataTables.autoFill.js" />
+    <Content Include="Scripts\libs\datatables\extensions\AutoFill\js\dataTables.autoFill.min.js" />
+    <Content Include="Scripts\libs\datatables\extensions\AutoFill\Readme.txt" />
+    <Content Include="Scripts\libs\datatables\extensions\ColReorder\css\dataTables.colReorder.css" />
+    <Content Include="Scripts\libs\datatables\extensions\ColReorder\css\dataTables.colReorder.min.css" />
+    <Content Include="Scripts\libs\datatables\extensions\ColReorder\images\insert.png" />
+    <Content Include="Scripts\libs\datatables\extensions\ColReorder\js\dataTables.colReorder.js" />
+    <Content Include="Scripts\libs\datatables\extensions\ColReorder\js\dataTables.colReorder.min.js" />
+    <Content Include="Scripts\libs\datatables\extensions\ColReorder\Readme.txt" />
+    <Content Include="Scripts\libs\datatables\extensions\ColVis\css\dataTables.colVis.css" />
+    <Content Include="Scripts\libs\datatables\extensions\ColVis\css\dataTables.colvis.jqueryui.css" />
+    <Content Include="Scripts\libs\datatables\extensions\ColVis\css\dataTables.colVis.min.css" />
+    <Content Include="Scripts\libs\datatables\extensions\ColVis\js\dataTables.colVis.js" />
+    <Content Include="Scripts\libs\datatables\extensions\ColVis\js\dataTables.colVis.min.js" />
+    <Content Include="Scripts\libs\datatables\extensions\ColVis\Readme.txt" />
+    <Content Include="Scripts\libs\datatables\extensions\FixedColumns\css\dataTables.fixedColumns.css" />
+    <Content Include="Scripts\libs\datatables\extensions\FixedColumns\css\dataTables.fixedColumns.min.css" />
+    <Content Include="Scripts\libs\datatables\extensions\FixedColumns\js\dataTables.fixedColumns.js" />
+    <Content Include="Scripts\libs\datatables\extensions\FixedColumns\js\dataTables.fixedColumns.min.js" />
+    <Content Include="Scripts\libs\datatables\extensions\FixedColumns\Readme.txt" />
+    <Content Include="Scripts\libs\datatables\extensions\FixedHeader\css\dataTables.fixedHeader.css" />
+    <Content Include="Scripts\libs\datatables\extensions\FixedHeader\css\dataTables.fixedHeader.min.css" />
+    <Content Include="Scripts\libs\datatables\extensions\FixedHeader\js\dataTables.fixedHeader.js" />
+    <Content Include="Scripts\libs\datatables\extensions\FixedHeader\js\dataTables.fixedHeader.min.js" />
+    <Content Include="Scripts\libs\datatables\extensions\FixedHeader\Readme.txt" />
+    <Content Include="Scripts\libs\datatables\extensions\KeyTable\css\dataTables.keyTable.css" />
+    <Content Include="Scripts\libs\datatables\extensions\KeyTable\css\dataTables.keyTable.min.css" />
+    <Content Include="Scripts\libs\datatables\extensions\KeyTable\js\dataTables.keyTable.js" />
+    <Content Include="Scripts\libs\datatables\extensions\KeyTable\js\dataTables.keyTable.min.js" />
+    <Content Include="Scripts\libs\datatables\extensions\KeyTable\Readme.txt" />
+    <Content Include="Scripts\libs\datatables\extensions\Responsive\css\dataTables.responsive.css" />
+    <Content Include="Scripts\libs\datatables\extensions\Responsive\js\dataTables.responsive.js" />
+    <Content Include="Scripts\libs\datatables\extensions\Responsive\js\dataTables.responsive.min.js" />
+    <Content Include="Scripts\libs\datatables\extensions\Scroller\css\dataTables.scroller.css" />
+    <Content Include="Scripts\libs\datatables\extensions\Scroller\css\dataTables.scroller.min.css" />
+    <Content Include="Scripts\libs\datatables\extensions\Scroller\images\loading-background.png" />
+    <Content Include="Scripts\libs\datatables\extensions\Scroller\js\dataTables.scroller.js" />
+    <Content Include="Scripts\libs\datatables\extensions\Scroller\js\dataTables.scroller.min.js" />
+    <Content Include="Scripts\libs\datatables\extensions\Scroller\Readme.txt" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\css\dataTables.tableTools.css" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\css\dataTables.tableTools.min.css" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\background.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\collection.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\collection_hover.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\copy.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\copy_hover.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\csv.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\csv_hover.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\pdf.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\pdf_hover.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\print.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\print_hover.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\xls.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\images\xls_hover.png" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\js\dataTables.tableTools.js" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\js\dataTables.tableTools.min.js" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\Readme.txt" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\swf\copy_csv_xls.swf" />
+    <Content Include="Scripts\libs\datatables\extensions\TableTools\swf\copy_csv_xls_pdf.swf" />
+    <Content Include="Scripts\libs\datatables\buttons.flash.min.js" />
+    <Content Include="Scripts\libs\datatables\buttons.html5.min.js" />
+    <Content Include="Scripts\libs\datatables\dataTables.buttons.min.js" />
+    <Content Include="Scripts\libs\datatables\buttons.print.min.js" />
+    <Content Include="Scripts\libs\datatables\jquery.dataTables.js" />
+    <Content Include="Scripts\libs\datatables\jquery.dataTables.min-1.10.15.js" />
+    <Content Include="Scripts\libs\datatables\jszip.min.js" />
+    <Content Include="Scripts\libs\datatables\jquery.dataTables.min.js" />
+    <Content Include="Scripts\libs\datatables\pdfmake.min.js" />
+    <Content Include="Scripts\libs\datatables\vfs_fonts.js" />
+    <Content Include="Scripts\libs\flot\curvedLines.js" />
+    <Content Include="Scripts\libs\flot\jquery.colorhelpers.js" />
+    <Content Include="Scripts\libs\flot\jquery.colorhelpers.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.canvas.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.canvas.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.categories.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.categories.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.crosshair.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.crosshair.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.errorbars.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.errorbars.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.fillbetween.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.fillbetween.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.image.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.image.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.navigate.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.navigate.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.orderBars.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.pie.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.resize.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.selection.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.selection.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.stack.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.stack.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.symbol.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.symbol.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.threshold.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.threshold.min.js" />
+    <Content Include="Scripts\libs\flot\jquery.flot.time.min.js" />
+    <Content Include="Scripts\libs\jquery-knob\jquery.knob.min.js" />
+    <Content Include="Scripts\libs\jquery-ui\jquery-ui.min.js" />
+    <Content Include="Scripts\libs\moment\moment.js" />
+    <Content Include="Scripts\libs\morris\morris.min.js" />
+    <Content Include="Scripts\libs\nanoscroller\jquery.nanoscroller.js" />
+    <Content Include="Scripts\libs\nanoscroller\jquery.nanoscroller.min.js" />
+    <Content Include="raphael\raphael.min.js" />
+    <Content Include="Scripts\libs\rickshaw\rickshaw.min.js" />
+    <Content Include="Scripts\libs\sparkline\jquery.sparkline.min.js" />
+    <Content Include="Scripts\libs\spin\spin.js" />
+    <Content Include="Scripts\libs\spin\spin.min.js" />
+    <Content Include="Scripts\libs\toastr\toastr.js" />
+    <Content Include="Scripts\libs\utils\html5shiv.js" />
+    <Content Include="Scripts\libs\utils\respond.min.js" />
+    <Content Include="Scripts\libs\validation\additional-methods.min.js" />
+    <Content Include="Scripts\libs\validation\jquery.validate.js" />
+    <Content Include="Scripts\libs\validation\jquery.validate.min.js" />
+    <Content Include="Scripts\libs\validation\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\libs\validation\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\core\demo\Demo.js" />
+    <Content Include="Scripts\core\demo\DemoFormWizard.js" />
+    <Content Include="Template\MailTemplate.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\Encuesta\MisEncuestas.cshtml" />
+    <Content Include="Views\Encuesta\VistaPrevia.cshtml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Attributes\FechaVencimientoAttribute.cs" />
+    <Compile Include="Attributes\ValidarCombosAttribute.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\MainAdministradorController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\AdministradorController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CompartirViewModel.cs" />
+    <Compile Include="Models\ContactoViewModel.cs" />
+    <Compile Include="Models\AutenticationModel.cs" />
+    <Compile Include="Models\EncuestaViewModel.cs" />
+    <Compile Include="Models\ItemPreguntaViewModel.cs" />
+    <Compile Include="Models\PlanesPreciosViewModel.cs" />
+    <Compile Include="Models\PreguntaViewModel.cs" />
+    <Compile Include="Models\RegistroEmpresaViewModel.cs" />
+    <Compile Include="Models\RegistroPlanViewModel.cs" />
+    <Compile Include="Models\RegistroUsuarioViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Registro\Registrar.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Contactenos\Contacto.cshtml" />
+    <Content Include="Views\Planes\Precios.cshtml" />
+    <Content Include="Views\Error\NotFound.cshtml" />
+    <Content Include="Views\Error\ErrorServer.cshtml" />
+    <Content Include="Views\Administrador\Login.cshtml" />
+    <Content Include="Views\Registro\EditorTemplates\RegistroPlanViewModel.cshtml" />
+    <Content Include="Views\Registro\EditorTemplates\RegistroEmpresaViewModel.cshtml" />
+    <Content Include="Views\Registro\EditorTemplates\RegistroUsuarioViewModel.cshtml" />
+    <Content Include="Views\Registro\EditorTemplates\RegistroPagoViewModel.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\MainAdministrador\Dashboard.cshtml" />
+    <Content Include="Views\Usuario\Login.cshtml" />
+    <Content Include="Views\Encuesta\Crear.cshtml" />
+    <Content Include="Views\Shared\_UserLayout.cshtml" />
+    <Content Include="Views\Encuesta\EditorTemplates\PreguntaViewModel.cshtml" />
+    <Content Include="Views\Encuesta\Delete.cshtml" />
+    <Content Include="Views\Encuesta\EditorTemplates\ItemPreguntaViewModel.cshtml" />
+    <Content Include="Views\Encuesta\Responder.cshtml" />
+    <Content Include="Views\Encuesta\EncuestaFinalizada.cshtml" />
+    <Content Include="Views\Encuesta\Editar.cshtml" />
+    <Content Include="Views\Shared\_EncuestaLayout.cshtml" />
+    <Content Include="Views\Encuesta\Reportes.cshtml" />
+    <Content Include="Source\Respuestas.json" />
+    <Content Include="Views\Encuesta\EditorTemplates\_Compartir.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Scripts\libs\dashboard\" />
+    <Folder Include="Scripts\libs\wizard\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaBanc.Entities\SistemaBanc.Entities.csproj">
+      <Project>{88a22b6b-c7c0-4bb8-94f1-8d5ba8c8f78d}</Project>
+      <Name>SistemaBanc.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SistemaBanc.LogicaNegocio\SistemaBanc.LogicaNegocio.csproj">
+      <Project>{0441c4ef-c3f6-4a20-82eb-c27e1cf33f81}</Project>
+      <Name>SistemaBanc.LogicaNegocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SistemaBanc.Utils\SistemaBanc.Utils.csproj">
+      <Project>{3263925e-c58a-4206-8b25-93f6682a6391}</Project>
+      <Name>SistemaBanc.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60999</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60999/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

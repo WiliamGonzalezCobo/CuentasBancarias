@@ -1,0 +1,28 @@
+﻿@model SistemaBanc.WebCliente.Models.CuentaModel
+
+<div>
+    <h4>Cuenta</h4>
+    <hr />
+    <div class="col-md-6">
+        <div class="col-md-3">
+            @Html.DisplayNameFor(model => model.id_Cuenta)
+
+        </div>
+        <div class="col-md-3">
+            @Html.DisplayFor(model => model.id_Cuenta)
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="col-md-3">
+            @Html.DisplayNameFor(model => model.saldo)
+        </div>
+
+        <div class="col-md-3">
+            @Html.DisplayFor(model => model.saldo)
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Regresar", "Index")
+</p>

@@ -1,0 +1,65 @@
+﻿@model SistemaEncuestas.WebSite.Models.RegistroPagoViewModel
+
+<br /><br />
+<div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.DropDownListFor(model => model.TipoTarjeta, (IEnumerable<SelectListItem>)ViewBag.ListaComboTipoTarjeta, new { @class = "form-control" })
+            @Html.LabelFor(model => model.TipoTarjeta)
+            @Html.ValidationMessageFor(model => model.TipoTarjeta, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.DropDownListFor(model => model.Franquicia, (IEnumerable<SelectListItem>)ViewBag.ListaComboFranquicia, new { @class = "form-control" })
+            @Html.LabelFor(model => model.Franquicia)
+            @Html.ValidationMessageFor(model => model.Franquicia, "", new { @class = "help-block" })
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.DropDownListFor(model => model.PaisTarjeta, (IEnumerable<SelectListItem>)ViewBag.ListaComboPaisTarjeta, new { @class = "form-control" })
+            @Html.LabelFor(model => model.PaisTarjeta)
+            @Html.ValidationMessageFor(model => model.PaisTarjeta, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.NumeroTarjeta, new { @class = "form-control" })
+            @Html.LabelFor(model => model.NumeroTarjeta)
+            @Html.ValidationMessageFor(model => model.NumeroTarjeta, "", new { @class = "help-block" })
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-3">
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.CodigoSeguridad, new { @class = "form-control" })
+            @Html.LabelFor(model => model.CodigoSeguridad)
+            @Html.ValidationMessageFor(model => model.CodigoSeguridad, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="form-group">
+            @Html.DropDownListFor(model => model.MesTarjeta, (IEnumerable<SelectListItem>)ViewBag.ListaComboMesTarjeta, new { @class = "form-control" })
+            @Html.LabelFor(model => model.MesTarjeta)
+            @Html.ValidationMessageFor(model => model.MesTarjeta, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="form-group">
+            @Html.DropDownListFor(model => model.AnioTarjeta, (IEnumerable<SelectListItem>)ViewBag.ListaComboAnioTarjeta, new { @class = "form-control" })
+            @Html.LabelFor(model => model.AnioTarjeta)
+            @Html.ValidationMessageFor(model => model.AnioTarjeta, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="form-group">
+            @Html.DropDownListFor(model => model.NumeroCuotas, (IEnumerable<SelectListItem>)ViewBag.ListaComboNumeroCuotas, new { @class = "form-control" })
+            @Html.LabelFor(model => model.NumeroCuotas)
+            @Html.ValidationMessageFor(model => model.NumeroCuotas, "", new { @class = "help-block" })
+        </div>
+    </div>
+</div>

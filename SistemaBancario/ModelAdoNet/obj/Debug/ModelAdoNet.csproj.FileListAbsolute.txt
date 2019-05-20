@@ -1,0 +1,10 @@
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ModelAdoNet\bin\Debug\ModelAdoNet.dll.config
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ModelAdoNet\bin\Debug\ModelAdoNet.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ModelAdoNet\bin\Debug\ModelAdoNet.pdb
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ModelAdoNet\bin\Debug\EntityFramework.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ModelAdoNet\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ModelAdoNet\bin\Debug\EntityFramework.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ModelAdoNet\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ModelAdoNet\obj\Debug\ModelAdoNet.csprojResolveAssemblyReference.cache
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ModelAdoNet\obj\Debug\ModelAdoNet.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ModelAdoNet\obj\Debug\ModelAdoNet.pdb

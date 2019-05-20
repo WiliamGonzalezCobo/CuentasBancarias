@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MODELOS_ENTITIES.cuenta>
+
+@{
+    ViewBag.Title = "Cuentas";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Crear Nueva", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.cliente.identificacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cliente.nombres)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.saldo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_creacion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.cliente.identificacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cliente.nombres)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.saldo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_creacion)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.id_Cuenta }) |
+            @Html.ActionLink("Detalles", "Details", new { id=item.id_Cuenta }) |
+            @Html.ActionLink("Borrar", "Delete", new { id=item.id_Cuenta })
+        </td>
+    </tr>
+}
+
+</table>

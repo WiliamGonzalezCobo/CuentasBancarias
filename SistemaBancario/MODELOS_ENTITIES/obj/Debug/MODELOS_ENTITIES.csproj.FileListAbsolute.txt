@@ -1,0 +1,24 @@
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Debug\MODELOS_ENTITIES.dll.config
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Debug\MODELOS_ENTITIES.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Debug\MODELOS_ENTITIES.pdb
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Debug\EntityFramework.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Debug\EntityFramework.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Debug\es\EntityFramework.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\obj\Debug\MODELOS_ENTITIES.csprojResolveAssemblyReference.cache
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\obj\Debug\MODELOS_ENTITIES.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\obj\Debug\MODELOS_ENTITIES.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\bin\Debug\MODELOS_ENTITIES.dll.config
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\bin\Debug\MODELOS_ENTITIES.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\bin\Debug\MODELOS_ENTITIES.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\bin\Debug\EntityFramework.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\bin\Debug\EntityFramework.SqlServer.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\bin\Debug\EntityFramework.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\bin\Debug\EntityFramework.SqlServer.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\bin\Debug\es\EntityFramework.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\obj\Debug\MODELOS_ENTITIES.csprojResolveAssemblyReference.cache
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\obj\Debug\MODELOS_ENTITIES.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\MODELOS_ENTITIES\obj\Debug\MODELOS_ENTITIES.pdb

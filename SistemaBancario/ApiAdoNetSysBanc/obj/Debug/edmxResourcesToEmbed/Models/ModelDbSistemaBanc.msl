@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SistemaBancarioModelStoreContainer" CdmEntityContainer="SistemaBancarioEntities">
+    <EntitySetMapping Name="clientes">
+      <EntityTypeMapping TypeName="SistemaBancarioModel.cliente">
+        <MappingFragment StoreEntitySet="cliente">
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="id_tipo_identificacion" ColumnName="id_tipo_identificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cuentas">
+      <EntityTypeMapping TypeName="SistemaBancarioModel.cuenta">
+        <MappingFragment StoreEntitySet="cuenta">
+          <ScalarProperty Name="id_Cliente" ColumnName="id_Cliente" />
+          <ScalarProperty Name="id_Cuenta" ColumnName="id_Cuenta" />
+          <ScalarProperty Name="saldo" ColumnName="saldo" />
+          <ScalarProperty Name="fecha_creacion" ColumnName="fecha_creacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipo_identificacion">
+      <EntityTypeMapping TypeName="SistemaBancarioModel.tipo_identificacion">
+        <MappingFragment StoreEntitySet="tipo_identificacion">
+          <ScalarProperty Name="id_tipo_identificacion" ColumnName="id_tipo_identificacion" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipo_transaccion">
+      <EntityTypeMapping TypeName="SistemaBancarioModel.tipo_transaccion">
+        <MappingFragment StoreEntitySet="tipo_transaccion">
+          <ScalarProperty Name="id_tipo_transaccion" ColumnName="id_tipo_transaccion" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="transaccions">
+      <EntityTypeMapping TypeName="SistemaBancarioModel.transaccion">
+        <MappingFragment StoreEntitySet="transaccion">
+          <ScalarProperty Name="id_transaccion" ColumnName="id_transaccion" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="id_tipo_transaccion" ColumnName="id_tipo_transaccion" />
+          <ScalarProperty Name="id_Cuenta" ColumnName="id_Cuenta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuarios">
+      <EntityTypeMapping TypeName="SistemaBancarioModel.usuario">
+        <MappingFragment StoreEntitySet="usuario">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="usuario1" ColumnName="usuario" />
+          <ScalarProperty Name="contrasenia" ColumnName="contrasenia" />
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="consultar_cuentas_cliente" FunctionName="SistemaBancarioModel.Store.consultar_cuentas_cliente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SistemaBancarioModel.consultar_cuentas_cliente_Result">
+          <ScalarProperty Name="id_Cuenta" ColumnName="id_Cuenta" />
+          <ScalarProperty Name="saldo" ColumnName="saldo" />
+          <ScalarProperty Name="fecha_creacion" ColumnName="fecha_creacion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="consultar_movimientos_cuenta" FunctionName="SistemaBancarioModel.Store.consultar_movimientos_cuenta">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SistemaBancarioModel.consultar_movimientos_cuenta_Result">
+          <ScalarProperty Name="id_transaccion" ColumnName="id_transaccion" />
+          <ScalarProperty Name="id_tipo_transaccion" ColumnName="id_tipo_transaccion" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="consultar_saldo_cuenta" FunctionName="SistemaBancarioModel.Store.consultar_saldo_cuenta" />
+    <FunctionImportMapping FunctionImportName="realizarTransaccion" FunctionName="SistemaBancarioModel.Store.realizarTransaccion" />
+  </EntityContainerMapping>
+</Mapping>

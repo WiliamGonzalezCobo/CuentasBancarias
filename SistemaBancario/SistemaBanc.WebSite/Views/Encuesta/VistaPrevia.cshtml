@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "VistaPrevia";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="section-body contain-lg">
+    <div class="row">
+        <div class="col-lg-offset-1 col-md-10">
+            <div class="card">
+                <div class="card-head card-head-sm style-primary">
+                    <header id="titulo-encuesta"></header>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12" id="col-encuesta"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: "@Url.Action("VistaPreviaJSON", "Encuesta")",
+            type: 'POST',
+            data: { idEncuesta: "@ViewBag.IdEncuesta", idEmpresa: "@ViewBag.IdEmpresa" },
+            success: function (JSONResult) {
+                readJson(JSONResult, true, 'controlador');
+            }
+        });
+    });
+</script>
+}

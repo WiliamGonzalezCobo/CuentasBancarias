@@ -1,0 +1,37 @@
+﻿@model IEnumerable<SistemaBanc.WebCliente.Models.TransaccionModelo>
+
+@{
+    ViewBag.Title = "Movimientos";
+}
+
+<h2>Movimientos</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_transaccion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.monto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_transaccion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.monto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha)
+        </td>
+    </tr>
+}
+
+</table>

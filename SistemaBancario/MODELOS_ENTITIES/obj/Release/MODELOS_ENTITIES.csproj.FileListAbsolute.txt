@@ -1,0 +1,12 @@
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Release\MODELOS_ENTITIES.dll.config
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Release\MODELOS_ENTITIES.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Release\MODELOS_ENTITIES.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Release\EntityFramework.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Release\EntityFramework.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Release\es\EntityFramework.resources.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\bin\Release\es\EntityFramework.SqlServer.resources.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\obj\Release\MODELOS_ENTITIES.csprojResolveAssemblyReference.cache
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\obj\Release\MODELOS_ENTITIES.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\MODELOS_ENTITIES\obj\Release\MODELOS_ENTITIES.pdb

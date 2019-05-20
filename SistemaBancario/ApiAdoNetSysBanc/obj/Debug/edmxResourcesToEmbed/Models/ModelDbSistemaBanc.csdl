@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SistemaBancarioModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="id_cliente" />
+    </Key>
+    <Property Name="id_cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombres" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellidos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="identificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="celular" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="id_tipo_identificacion" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="usuarios" Relationship="Self.fk_cliente" FromRole="cliente" ToRole="usuario" />
+    <NavigationProperty Name="tipo_identificacion" Relationship="Self.fk_tipo_identificacion" FromRole="cliente" ToRole="tipo_identificacion" />
+    <NavigationProperty Name="cuentas" Relationship="SistemaBancarioModel.fk_cliente_cta" FromRole="cliente" ToRole="cuenta" />
+  </EntityType>
+  <EntityType Name="cuenta">
+    <Key>
+      <PropertyRef Name="id_Cuenta" />
+    </Key>
+    <Property Name="id_Cuenta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="saldo" Type="Int32" Nullable="false" />
+    <Property Name="fecha_creacion" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="transaccions" Relationship="Self.fk_cuenta" FromRole="cuenta" ToRole="transaccion" />
+    <Property Name="id_Cliente" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="cliente" Relationship="SistemaBancarioModel.fk_cliente_cta" FromRole="cuenta" ToRole="cliente" />
+  </EntityType>
+  <EntityType Name="tipo_identificacion">
+    <Key>
+      <PropertyRef Name="id_tipo_identificacion" />
+    </Key>
+    <Property Name="id_tipo_identificacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="clientes" Relationship="Self.fk_tipo_identificacion" FromRole="tipo_identificacion" ToRole="cliente" />
+  </EntityType>
+  <EntityType Name="tipo_transaccion">
+    <Key>
+      <PropertyRef Name="id_tipo_transaccion" />
+    </Key>
+    <Property Name="id_tipo_transaccion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="transaccions" Relationship="Self.fk_tipotransaccion" FromRole="tipo_transaccion" ToRole="transaccion" />
+  </EntityType>
+  <EntityType Name="transaccion">
+    <Key>
+      <PropertyRef Name="id_transaccion" />
+    </Key>
+    <Property Name="id_transaccion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="valor" Type="Int32" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="id_tipo_transaccion" Type="Int32" Nullable="false" />
+    <Property Name="id_Cuenta" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="cuenta" Relationship="Self.fk_cuenta" FromRole="transaccion" ToRole="cuenta" />
+    <NavigationProperty Name="tipo_transaccion" Relationship="Self.fk_tipotransaccion" FromRole="transaccion" ToRole="tipo_transaccion" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="usuario1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contrasenia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="id_cliente" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="cliente" Relationship="Self.fk_cliente" FromRole="usuario" ToRole="cliente" />
+  </EntityType>
+  <Association Name="fk_cliente">
+    <End Role="cliente" Type="Self.cliente" Multiplicity="1" />
+    <End Role="usuario" Type="Self.usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="usuario">
+        <PropertyRef Name="id_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tipo_identificacion">
+    <End Role="tipo_identificacion" Type="Self.tipo_identificacion" Multiplicity="1" />
+    <End Role="cliente" Type="Self.cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipo_identificacion">
+        <PropertyRef Name="id_tipo_identificacion" />
+      </Principal>
+      <Dependent Role="cliente">
+        <PropertyRef Name="id_tipo_identificacion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_cuenta">
+    <End Role="cuenta" Type="Self.cuenta" Multiplicity="1" />
+    <End Role="transaccion" Type="Self.transaccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cuenta">
+        <PropertyRef Name="id_Cuenta" />
+      </Principal>
+      <Dependent Role="transaccion">
+        <PropertyRef Name="id_Cuenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tipotransaccion">
+    <End Role="tipo_transaccion" Type="Self.tipo_transaccion" Multiplicity="1" />
+    <End Role="transaccion" Type="Self.transaccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipo_transaccion">
+        <PropertyRef Name="id_tipo_transaccion" />
+      </Principal>
+      <Dependent Role="transaccion">
+        <PropertyRef Name="id_tipo_transaccion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SistemaBancarioEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="clientes" EntityType="Self.cliente" />
+    <EntitySet Name="cuentas" EntityType="Self.cuenta" />
+    <EntitySet Name="tipo_identificacion" EntityType="Self.tipo_identificacion" />
+    <EntitySet Name="tipo_transaccion" EntityType="Self.tipo_transaccion" />
+    <EntitySet Name="transaccions" EntityType="Self.transaccion" />
+    <EntitySet Name="usuarios" EntityType="Self.usuario" />
+    <AssociationSet Name="fk_cliente" Association="Self.fk_cliente">
+      <End Role="cliente" EntitySet="clientes" />
+      <End Role="usuario" EntitySet="usuarios" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tipo_identificacion" Association="Self.fk_tipo_identificacion">
+      <End Role="tipo_identificacion" EntitySet="tipo_identificacion" />
+      <End Role="cliente" EntitySet="clientes" />
+    </AssociationSet>
+    <AssociationSet Name="fk_cuenta" Association="Self.fk_cuenta">
+      <End Role="cuenta" EntitySet="cuentas" />
+      <End Role="transaccion" EntitySet="transaccions" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tipotransaccion" Association="Self.fk_tipotransaccion">
+      <End Role="tipo_transaccion" EntitySet="tipo_transaccion" />
+      <End Role="transaccion" EntitySet="transaccions" />
+    </AssociationSet>
+    <FunctionImport Name="consultar_cuentas_cliente" ReturnType="Collection(SistemaBancarioModel.consultar_cuentas_cliente_Result)">
+      <Parameter Name="id_cliente" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="consultar_movimientos_cuenta" ReturnType="Collection(SistemaBancarioModel.consultar_movimientos_cuenta_Result)">
+      <Parameter Name="id_cuenta" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="consultar_saldo_cuenta" ReturnType="Collection(Int32)">
+      <Parameter Name="id_cuenta" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="realizarTransaccion">
+      <Parameter Name="id_cuenta" Mode="In" Type="Int32" />
+      <Parameter Name="monto" Mode="In" Type="Int32" />
+      <Parameter Name="tipoTransacion" Mode="In" Type="Int32" />
+      <Parameter Name="idCuentaDestino" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <AssociationSet Name="fk_cliente_cta" Association="SistemaBancarioModel.fk_cliente_cta">
+      <End Role="cliente" EntitySet="clientes" />
+      <End Role="cuenta" EntitySet="cuentas" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="consultar_cuentas_cliente_Result">
+    <Property Type="Int32" Name="id_Cuenta" Nullable="false" />
+    <Property Type="Int32" Name="saldo" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_creacion" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="consultar_movimientos_cuenta_Result">
+    <Property Type="Int32" Name="id_transaccion" Nullable="false" />
+    <Property Type="Int32" Name="id_tipo_transaccion" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="valor" Nullable="false" />
+  </ComplexType>
+  <Association Name="fk_cliente_cta">
+    <End Type="SistemaBancarioModel.cliente" Role="cliente" Multiplicity="1" />
+    <End Type="SistemaBancarioModel.cuenta" Role="cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="cuenta">
+        <PropertyRef Name="id_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

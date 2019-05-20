@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SistemaEncuestas.WebSite.RouteConfig">
+    <Position X="19.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.MvcApplication">
+    <Position X="21.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Controllers.BaseController">
+    <Position X="8.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEABQAhAAQAAAAIQAAAAQAAAAACAEAAQAQADiAABQA=</HashCode>
+      <FileName>Controllers\BaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.ContactoViewModel">
+    <Position X="23.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAgAAAAAAAAAAAABAAIAAAAAA=</HashCode>
+      <FileName>Models\ContactoViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.PlanesPreciosViewModel">
+    <Position X="30" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAABAACAAAAAAAgAARAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PlanesPreciosViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.RegistroViewModel">
+    <Position X="31.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAQAAAAAAAAAAAAAAAAAABAAAEAAAAAAA=</HashCode>
+      <FileName>Models\RegistroViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Controllers.AdministradorController">
+    <Position X="0.5" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Controllers\AdministradorController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Controllers.ContactenosController">
+    <Position X="2.75" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Controllers\ContactenosController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Controllers.EncuestaController">
+    <Position X="5" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAABEAsAIAAAAAQAAAAAMAAEkAAAAAAABIAAAQAAA=</HashCode>
+      <FileName>Controllers\EncuestaController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Controllers.ErrorController">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ErrorController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Controllers.HomeController">
+    <Position X="9.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Controllers.MainAdministradorController">
+    <Position X="11" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\MainAdministradorController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Controllers.PlanesController">
+    <Position X="13.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PlanesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Controllers.RegistroController">
+    <Position X="15.25" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAIAAgAACAAAAAgAAEAAAAAgAAAAAAQ=</HashCode>
+      <FileName>Controllers\RegistroController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.AutenticationModel">
+    <Position X="19.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAA=</HashCode>
+      <FileName>Models\AutenticationModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.RegistroEmpresaViewModel">
+    <Position X="21.75" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgiAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RegistroEmpresaViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.RegistroPagoViewModel">
+    <Position X="24.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAIAAAEAAgAAAAIAgAIAAgAA=</HashCode>
+      <FileName>Models\RegistroPagoViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.RegistroPlanViewModel">
+    <Position X="26.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RegistroPlanViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.RegistroUsuarioViewModel">
+    <Position X="28.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAoAAAAIAAAAACAAAQAAAAYAA=</HashCode>
+      <FileName>Models\RegistroUsuarioViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Controllers.UsuarioController">
+    <Position X="17.25" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Controllers\UsuarioController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.EncuestaViewModel">
+    <Position X="25.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAEAACBAAAAAAAAAAAIAAAAgCEAAAAAAAAA=</HashCode>
+      <FileName>Models\EncuestaViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.ItemPreguntaViewModel">
+    <Position X="27.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ItemPreguntaViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.PreguntaViewModel">
+    <Position X="19.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAAABAAAAAAABAAABAAAAAAEAAAEAAAAAAAA=</HashCode>
+      <FileName>Models\PreguntaViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.WebSite.Models.CompartirViewModel">
+    <Position X="21.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACFAAIAAABAA=</HashCode>
+      <FileName>Models\CompartirViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

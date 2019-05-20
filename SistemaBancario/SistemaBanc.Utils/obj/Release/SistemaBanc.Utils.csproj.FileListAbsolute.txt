@@ -1,0 +1,6 @@
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\bin\Release\SistemaBanc.Utils.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\bin\Release\SistemaBanc.Utils.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\obj\Release\SistemaBanc.Utils.Recursos.Mensajes.resources
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\obj\Release\SistemaBanc.Utils.csproj.GenerateResource.Cache
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\obj\Release\SistemaBanc.Utils.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\obj\Release\SistemaBanc.Utils.pdb

@@ -1,0 +1,116 @@
+﻿@model SistemaEncuestas.WebSite.Models.AutenticationModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de encuestas - Portal Administrativo</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300italic,400italic,300,400,500,700,900' rel='stylesheet' type='text/css' />
+    <link type="text/css" rel="stylesheet" href="~/Content/bootstrap/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/Site.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/util.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/font-awesome/font-awesome.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/material-design-iconic/material-design-iconic-font.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/libs/toastr/toastr.css" />
+
+    <script src="~/Scripts/jquery/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/libs/validation/jquery.validate.min.js"></script>
+    <script src="~/Scripts/libs/validation/jquery.validate.unobtrusive.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="../../assets/js/libs/utils/html5shiv.js?1403934957"></script>
+    <script type="text/javascript" src="../../assets/js/libs/utils/respond.min.js?1403934956"></script>
+    <![endif]-->
+</head>
+<body class="menubar-hoverable header-fixed">
+    <header id="header" class="navbar">
+        <nav role="navigation">
+            <div class="navbar-header">
+                <ul class="header-nav header-nav-options">
+                    <li class="header-nav-brand">
+                        <div class="brand-holder">
+                            <a href="@Url.Action("Index", "Home")" tabindex="-1">
+                                <img src="@Url.Content("~/Content/images/poll.png")" alt="Logo sistema encuestas" />
+                                <span class="text-lg text-bold text-primary span-logo" style="padding-left: 10px;">
+                                    Sistema de encuestas
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="section-account">
+        <div class="img-backdrop" style="background-image: url('@Url.Content("~/Content/images/img16.jpg")')"></div>
+        <div class="spacer"></div>
+        <div class="card contain-sm style-transparent">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <br />
+                        <span class="text-lg text-bold text-primary">SISTEMA DE ENCUESTAS ADMIN</span>
+                        <br /><br />
+                        @using (Html.BeginForm("Login", "Administrador", FormMethod.Post,
+                            new { autocomplete = "off", id = "formLoginAdmin", @class = "form form-validate floating-label" }))
+                        {
+                            @Html.AntiForgeryToken();
+
+                            <div class="form-group">
+                                @Html.TextBoxFor(model => model.Usuario, new { @class = "form-control" })
+                                @Html.LabelFor(model => model.Usuario)
+                                @Html.ValidationMessageFor(model => model.Usuario, "", new { @class = "help-block" })
+                            </div>
+                            <div class="form-group">
+                                @Html.PasswordFor(model => model.Password, new { Class = "form-control" })
+                                @Html.LabelFor(model => model.Password)
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "help-block" })
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-xs-6 text-right">
+                                    <button type="submit" class="btn ink-reaction btn-raised btn-primary btn-loading-state" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Loading...">
+                                        Ingresar<div class="ink" style="top: 19.8px; left: 36.2px;"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="~/Scripts/jquery/jquery-migrate-3.0.0.min.js"></script>
+    <script src="~/Scripts/bootstrap/bootstrap.min.js"></script>
+    <script src="~/Scripts/libs/spin/spin.min.js"></script>
+    <script src="~/Scripts/libs/autosize/jquery.autosize.min.js"></script>
+    <script src="~/Scripts/libs/nanoscroller/jquery.nanoscroller.min.js"></script>
+    <script src="~/Scripts/libs/toastr/toastr.js"></script>
+
+    <script src="~/Scripts/core/App.js"></script>
+    <script src="~/Scripts/core/AppCard.js"></script>
+    <script src="~/Scripts/core/AppForm.js"></script>
+    <script src="~/Scripts/core/AppNavigation.js"></script>
+    <script src="~/Scripts/core/AppNavSearch.js"></script>
+    <script src="~/Scripts/core/AppVendor.js"></script>
+
+    <script src="~/Scripts/custom/Mensajes.js"></script>
+
+    @if (ViewBag.Mensaje != null)
+    {
+        <script type="text/javascript">
+            $(document).ready(function () {
+                mensaje("error", "@ViewBag.Mensaje");
+            });
+        </script>
+    }
+</body>
+</html>

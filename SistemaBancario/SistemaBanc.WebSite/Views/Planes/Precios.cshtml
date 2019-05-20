@@ -1,0 +1,80 @@
+﻿@model List<SistemaEncuestas.WebSite.Models.PlanesPreciosViewModel>
+
+@{
+    ViewBag.Title = "Planes y Precios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section>
+    <div class="section-body contain-lg">
+        <div class="section-body">
+            <div class="container">
+                <h2 class="text-light text-center">
+                    Planes y precios
+                    <br />
+                    <small class="text-primary">
+                        Revisa nuestra tabla de precios, y escoge el que mejor se acomode a tu negocio.
+                    </small>
+                </h2>
+
+                <br />
+
+                <div class="row text-center">
+                    @if (Model.Count > 0)
+                    {
+                        for (var i = 0; i < Model.Count; i++)
+                        {
+                            string classStyle = string.Empty;
+
+                            if (!Model[i].Promocion)
+                            {
+                                classStyle = "style-gray";
+                            }
+                            else
+                            {
+                                classStyle = "style-primary";
+                            }
+
+                            <div class="col-md-3">
+                                <div class="card card-type-pricing text-center">
+                                    <div class="card-body @classStyle">
+                                        <h2 class="text-light">
+                                            @Model[i].Nombre
+                                        </h2>
+                                        <div class="price">
+                                            <span class="text-lg">$</span>
+                                            <h3>
+                                                <span class="text-xl">@Model[i].Precio</span>
+                                            </h3> <span>mes</span>
+                                        </div>
+                                        <br />
+                                        <p class="opacity-50">
+                                            <em>@Model[i].Descripcion</em>
+                                        </p>
+                                    </div>
+                                    <div class="card-body no-padding">
+                                        <ul class="list-unstyled">
+                                            @foreach (string item in Model[i].Items)
+                                            {
+                                                <li>@item</li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    <div class="card-body">
+                                        <a class="btn btn-default" href="@Url.Action("Registrar", "Registro", new { idPlan = Model[i].Id })">Registrarte</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="col-md-12 text-center">
+                            <h1>No se encontraron registros.</h1>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

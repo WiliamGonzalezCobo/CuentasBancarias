@@ -1,0 +1,12 @@
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Release\SistemaBanc.LogicaNegocio.dll.config
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Release\SistemaBanc.LogicaNegocio.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Release\SistemaBanc.LogicaNegocio.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Release\Newtonsoft.Json.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Release\SistemaBanc.Entities.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Release\SistemaBanc.Entities.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Release\Newtonsoft.Json.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\obj\Release\SistemaBanc.LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\obj\Release\SistemaBanc.LogicaNegocio.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.LogicaNegocio\obj\Release\SistemaBanc.LogicaNegocio.pdb

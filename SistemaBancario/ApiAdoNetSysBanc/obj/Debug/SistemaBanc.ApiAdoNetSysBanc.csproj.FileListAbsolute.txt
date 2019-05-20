@@ -1,0 +1,208 @@
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\csc.exe
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\System.Collections.Immutable.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\vbc.exe
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\VBCSCompiler.exe
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\VBCSCompiler.exe.config
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\ApiAdoNetSysBanc.dll.config
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\ApiAdoNetSysBanc.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\ApiAdoNetSysBanc.pdb
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Antlr3.Runtime.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\EntityFramework.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\EntityFramework.SqlServer.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Google.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Web.Infrastructure.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Newtonsoft.Json.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Owin.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\SistemaBanc.Entities.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\SistemaBanc.Utils.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Net.Http.Formatting.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Helpers.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.Owin.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.WebHost.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Mvc.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Optimization.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Razor.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.Deployment.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.Razor.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\WebGrease.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\SistemaBanc.Entities.pdb
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\SistemaBanc.Utils.pdb
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Newtonsoft.Json.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Net.Http.Formatting.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Helpers.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.WebHost.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Mvc.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Optimization.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Razor.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.Deployment.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.Razor.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Antlr3.Runtime.pdb
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\EntityFramework.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\EntityFramework.SqlServer.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Google.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.Owin.xml
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Net.Http.Formatting.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Helpers.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Http.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Http.WebHost.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Mvc.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Optimization.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Razor.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.WebPages.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\EntityFramework.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\EntityFramework.SqlServer.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Security.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Security.Google.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Http.Owin.resources.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\obj\Debug\SistemaBanc.ApiAdoNetSysBanc.csprojResolveAssemblyReference.cache
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\obj\Debug\ApiAdoNetSysBanc.dll
+c:\users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\ApiAdoNetSysBanc\obj\Debug\ApiAdoNetSysBanc.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\csc.exe
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\System.Collections.Immutable.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\System.Reflection.Metadata.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\vbc.exe
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\VBCSCompiler.exe
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\roslyn\VBCSCompiler.exe.config
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\ApiAdoNetSysBanc.dll.config
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\ApiAdoNetSysBanc.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\ApiAdoNetSysBanc.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Antlr3.Runtime.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\EntityFramework.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\EntityFramework.SqlServer.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.Core.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Cookies.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Facebook.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Google.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.OAuth.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Twitter.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Web.Infrastructure.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Newtonsoft.Json.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Owin.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\SistemaBanc.Entities.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\SistemaBanc.Utils.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Net.Http.Formatting.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Helpers.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.Owin.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.WebHost.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Mvc.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Optimization.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Razor.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.Deployment.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.Razor.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\WebGrease.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\SistemaBanc.Entities.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\SistemaBanc.Utils.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Newtonsoft.Json.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Net.Http.Formatting.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Helpers.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.WebHost.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Mvc.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Optimization.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Razor.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.Deployment.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.WebPages.Razor.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Antlr3.Runtime.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\EntityFramework.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\EntityFramework.SqlServer.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.Core.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Facebook.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Cookies.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.OAuth.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Google.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.Twitter.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\System.Web.Http.Owin.xml
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Net.Http.Formatting.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Helpers.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Http.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Http.WebHost.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Mvc.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Optimization.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Razor.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.WebPages.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\EntityFramework.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\EntityFramework.SqlServer.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Security.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\bin\es\System.Web.Http.Owin.resources.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\obj\Debug\SistemaBanc.ApiAdoNetSysBanc.csprojResolveAssemblyReference.cache
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\obj\Debug\ApiAdoNetSysBanc.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\ApiAdoNetSysBanc\obj\Debug\ApiAdoNetSysBanc.pdb

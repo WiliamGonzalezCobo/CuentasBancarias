@@ -1,0 +1,120 @@
+﻿@model  SistemaEncuestas.WebSite.Models.PreguntaViewModel
+
+<div id="@Model.Id" class="row itemQ">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="form-group">
+                            @Html.HiddenFor(model => model.Id, new { @id = "hdn_" + Model.Id })
+                            @Html.HiddenFor(model => model.Eliminado, new { @id = "hdnEliminado_" + Model.Id })
+                            @Html.HiddenFor(model => model.Index, new { @id = "hdnIndex_" + Model.Id })
+
+                            @Html.TextBoxFor(model => model.Descripcion, new { @class = "form-control" })
+                            @Html.LabelFor(model => model.Descripcion)
+                            @Html.ValidationMessageFor(model => model.Descripcion, "", new { @class = "help-block" })
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            @Html.DropDownListFor(model => model.IdMetadata, (IEnumerable<SelectListItem>)ViewBag.ListaMetadata, new { id = "IdMetadata_" + @Model.Id, @class = "form-control" })
+                            @Html.LabelFor(model => model.IdMetadata)
+                            @Html.ValidationMessageFor(model => model.IdMetadata, "", new { @class = "help-block" })
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <div class="checkbox-inline">
+                                <label>
+                                    @Html.CheckBox("Requerido")
+                                    @Html.Label("Requerido")
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="options">
+                    @Html.EditorFor(model => model.ItemsPregunta, "PreguntaItem")
+                </div>
+            </div>
+            <div class="card-actionbar">
+                <div class="card-actionbar-row">
+                    <a id="addOption_@Model.Id" href="javascript:void(0)" class="btn btn-icon-toggle btn-info ink-reaction pull-left" data-toggle="tooltip" data-placement="top" data-original-title="Agregar opción">
+                        <i class="fa fa-plus"></i>
+                    </a>
+                    <a id="deleteQuestion_@Model.Id" href="javascript:void(0)" class="btn btn-icon-toggle btn-danger ink-reaction" data-toggle="tooltip" data-placement="top" data-original-title="Eliminar pregunta">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#addOption_@Model.Id").hide();
+    });
+
+    $("#IdMetadata_@Model.Id").change(function () {
+        var index = $(this)[0].options.selectedIndex;
+        var value = $(this)[0].options[index].label;
+
+        switch (value) {
+            case "CheckBox":
+            case "ComboBox":
+            case "RadioButton":
+                $("#addOption_@Model.Id").show();
+                break;
+            case "TextBox":
+                $("#addOption_@Model.Id").hide();
+                BorrarOpciones();
+                break;
+        }
+    });
+
+    $("#addOption_@Model.Id").click(function () {
+        var indexPregunta = $("#hdnIndex_@Model.Id").val();
+        var index = $("#@Model.Id #options div.itemO").length;
+
+        $.ajax({
+            url: "@Url.Action("CrearOpcion", "Encuesta")",
+            type: 'POST',
+            data: {
+                index: index
+            },
+            success: function (partialResult) {
+                var result = partialResult.replace("name=\"Id\"", "name=\"Preguntas[" + indexPregunta + "].ItemsPregunta[" + index + "].Id\"");
+                result = result.replace("name=\"Eliminado\"", "name=\"Preguntas[" + indexPregunta + "].ItemsPregunta[" + index + "].Eliminado\"");
+                result = result.replace("name=\"Valor\"", "name=\"Preguntas[" + indexPregunta + "].ItemsPregunta[" + index + "].Valor\"");
+
+                $("#@Model.Id #options").append(result);
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    });
+
+    $("#deleteQuestion_@Model.Id").click(function () {
+        $("#hdn_@Model.Id").val(true);
+        $("#@Model.Id").hide();
+    });
+
+    function BorrarOpciones() {
+        var indexOptions = $("#@Model.Id #options div.itemO").length;
+
+        if (indexOptions > 0) {
+            $("#@Model.Id #options div.itemO").each(function () {
+                var idOption = $(this).attr("id");
+
+                $("#hdn_Eliminado_" + idOption).val(true);
+                $("#txtValor_" + idOption).removeAttr("required");
+                $(this).hide();
+            });
+        }
+    }
+</script>

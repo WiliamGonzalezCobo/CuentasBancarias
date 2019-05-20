@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MensajeLoginSuccess" xml:space="preserve">
+    <value>Acceso exitoso</value>
+  </data>
+  <data name="JSONMensajesFranquicia" xml:space="preserve">
+    <value>{{'visa': '{0}', 'master': '{1}', 'diners': '{2}', 'american': '{3}', 'discover': '{4}'}}</value>
+  </data>
+  <data name="MensajeBusquedaEntidadSuccess" xml:space="preserve">
+    <value>Se encontró el registro {0}.</value>
+  </data>
+  <data name="MensajeBusquedaEntidadWarning" xml:space="preserve">
+    <value>No se encontró el registro solicitado.</value>
+  </data>
+  <data name="MensajeCorreoEnviado" xml:space="preserve">
+    <value>El correo destinado ha sido enviado.</value>
+  </data>
+  <data name="MensajeCorreoError" xml:space="preserve">
+    <value>El correo no ha podido ser enviado.</value>
+  </data>
+  <data name="MensajeEmpresaSuccess" xml:space="preserve">
+    <value>Se relizó la inserción de la empresa de forma correcta.</value>
+  </data>
+  <data name="MensajeListaSuccess" xml:space="preserve">
+    <value>Se encontraron {0} registros.</value>
+  </data>
+  <data name="MensajeListaWarning" xml:space="preserve">
+    <value>No se encontraron registros.</value>
+  </data>
+  <data name="MensajeParametroWarning" xml:space="preserve">
+    <value>El párametro se encuentra nulo.</value>
+  </data>
+  <data name="MensajePlanSuccess" xml:space="preserve">
+    <value>Se realizó la inserción del plan de forma correcta.</value>
+  </data>
+  <data name="MensajePrecioSuccess" xml:space="preserve">
+    <value>Se realizó la inserción del precio de forma correcta.</value>
+  </data>
+  <data name="MensajeRolSuccess" xml:space="preserve">
+    <value>Se realizó la inserción del rol de forma correcta.</value>
+  </data>
+  <data name="MensajeUsuarioSuccess" xml:space="preserve">
+    <value>Se realizó la inserción del usuario de forma correcta.</value>
+  </data>
+  <data name="nombreRecursoAE" xml:space="preserve">
+    <value>ValidacionErrorTarjetaAmerican</value>
+  </data>
+  <data name="nombreRecursoDC" xml:space="preserve">
+    <value>ValidacionErrorTarjetaDiscover</value>
+  </data>
+  <data name="nombreRecursoDI" xml:space="preserve">
+    <value>ValidacionErrorTarjetaDiners</value>
+  </data>
+  <data name="nombreRecursoMC" xml:space="preserve">
+    <value>ValidacionErrorTarjetaMaster</value>
+  </data>
+  <data name="nombreRecursoVI" xml:space="preserve">
+    <value>ValidacionErrorTarjetaVisa</value>
+  </data>
+  <data name="ValidacionErrorTarjetaAmerican" xml:space="preserve">
+    <value>Las tarjetas American Express comienzan con el número 3 y contienen 15 dígitos.</value>
+  </data>
+  <data name="ValidacionErrorTarjetaDiners" xml:space="preserve">
+    <value>Las tarjetas Diners pueden comenzar por los números 3 o 6 y contienen 16 dígitos.</value>
+  </data>
+  <data name="ValidacionErrorTarjetaDiscover" xml:space="preserve">
+    <value>Las tarjetas Discover pueden comenzar por los números 3 o 6 y contienen 16 dígitos.</value>
+  </data>
+  <data name="ValidacionErrorTarjetaMaster" xml:space="preserve">
+    <value>Las tarjetas Master Card comienzan por el número 2 o 5 y contienen 16 dígitos.</value>
+  </data>
+  <data name="ValidacionErrorTarjetaVisa" xml:space="preserve">
+    <value>Las tarjetas Visa comienzan por el número 4 y contienen 16 dígitos.</value>
+  </data>
+  <data name="ListaMeses" xml:space="preserve">
+    <value>Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre</value>
+  </data>
+  <data name="ListaTipoTarjeta" xml:space="preserve">
+    <value>Crédito</value>
+  </data>
+  <data name="ListaFranquicias" xml:space="preserve">
+    <value>Visa|Master Card|American Express|Diners Club|Discover</value>
+  </data>
+  <data name="ListaPaises" xml:space="preserve">
+    <value>["Afganistan", 
+"Albania", 
+"Alemania", 
+"Andorra", 
+"Angola", 
+"Antartida", 
+"Antigua y Barbuda", 
+"Arabia Saudi", 
+"Argelia", 
+"Argentina", 
+"Armenia", 
+"Australia", 
+"Austria", 
+"Azerbaiyan", 
+"Bahamas", 
+"Bahrain", 
+"Bangladesh", 
+"Barbados", 
+"Belgica", 
+"Belice", 
+"Benin", 
+"Bermudas", 
+"Bielorrusia", 
+"Birmania Myanmar", 
+"Bolivia", 
+"Bosnia y Herzegovina", 
+"Botswana", 
+"Brasil", 
+"Brunei", 
+"Bulgaria", 
+"Burkina Faso", 
+"Burundi", 
+"Butan", 
+"Cabo Verde", 
+"Camboya", 
+"Camerun", 
+"Canada", 
+"Chad", 
+"Chile", 
+"China", 
+"Chipre", 
+"Colombia", 
+"Comores", 
+"Congo", 
+"Corea del Norte", 
+"Corea del Sur", 
+"Costa de Marfil", 
+"Costa Rica", 
+"Croacia", 
+"Cuba", 
+"Dinamarca", 
+"Dominica", 
+"Ecuador", 
+"Egipto", 
+"El Salvador", 
+"El Vaticano", 
+"Emiratos arabes Unidos", 
+"Eritrea", 
+"Eslovaquia", 
+"Eslovenia", 
+"España", 
+"Estados Unidos", 
+"Estonia", 
+"Etiopia", 
+"Filipinas", 
+"Finlandia", 
+"Fiji", 
+"Francia", 
+"Gabon", 
+"Gambia", 
+"Georgia", 
+"Ghana", 
+"Gibraltar", 
+"Granada", 
+"Grecia", 
+"Guam", 
+"Guatemala", 
+"Guinea", 
+"Guinea Ecuatorial", 
+"Guinea Bissau", 
+"Guyana", 
+"Haiti", 
+"Honduras", 
+"Hungria", 
+"India", 
+"Indian Ocean", 
+"Indonesia", 
+"Iran", 
+"Iraq", 
+"Irlanda", 
+"Islandia", 
+"Israel", 
+"Italia", 
+"Jamaica", 
+"Japon", 
+"Jersey", 
+"Jordania", 
+"Kazajstan", 
+"Kenia", 
+"Kirguistan", 
+"Kiribati", 
+"Kuwait", 
+"Laos", 
+"Lesoto", 
+"Letonia", 
+"Libano", 
+"Liberia", 
+"Libia", 
+"Liechtenstein", 
+"Lituania", 
+"Luxemburgo", 
+"Macedonia", 
+"Madagascar", 
+"Malasia", 
+"Malawi", 
+"Maldivas", 
+"Mali", 
+"Malta", 
+"Marruecos", 
+"Mauricio", 
+"Mauritania", 
+"Mexico", 
+"Micronesia", 
+"Moldavia", 
+"Monaco", 
+"Mongolia", 
+"Montserrat", 
+"Mozambique", 
+"Namibia", 
+"Nauru", 
+"Nepal", 
+"Nicaragua", 
+"Niger", 
+"Nigeria", 
+"Noruega", 
+"Nueva Zelanda", 
+"Oman", 
+"Paises Bajos", 
+"Pakistan", 
+"Palau", 
+"Panama", 
+"Papua Nueva Guinea", 
+"Paraguay", 
+"Peru", 
+"Polonia", 
+"Portugal", 
+"Puerto Rico", 
+"Qatar", 
+"Reino Unido", 
+"Republica Centroafricana", 
+"Republica Checa", 
+"Republica Democratica del Congo", 
+"Republica Dominicana", 
+"Ruanda", 
+"Rumania", 
+"Rusia", 
+"Sahara Occidental", 
+"Samoa", 
+"San Cristobal y Nevis", 
+"San Marino", 
+"San Vicente y las Granadinas", 
+"Santa Lucia", 
+"Santo Tome y Principe", 
+"Senegal", 
+"Seychelles", 
+"Sierra Leona", 
+"Singapur", 
+"Siria", 
+"Somalia", 
+"Southern Ocean", 
+"Sri Lanka", 
+"Swazilandia", 
+"Sudafrica", 
+"Sudan", 
+"Suecia", 
+"Suiza", 
+"Surinam", 
+"Tailandia", 
+"Taiwan", 
+"Tanzania", 
+"Tayikistan", 
+"Togo", 
+"Tokelau", 
+"Tonga", 
+"Trinidad y Tobago", 
+"Tunez", 
+"Turkmekistan", 
+"Turquia", 
+"Tuvalu", 
+"Ucrania", 
+"Uganda", 
+"Uruguay", 
+"Uzbekistan", 
+"Vanuatu", 
+"Venezuela", 
+"Vietnam", 
+"Yemen", 
+"Djibouti", 
+"Zambia", 
+"Zimbabue" ]</value>
+  </data>
+  <data name="MensajeLoginError" xml:space="preserve">
+    <value>El usuario ingresado no coincide con la contraseña o no existe.</value>
+  </data>
+  <data name="ErrorCargarDatos" xml:space="preserve">
+    <value>Se presento un Error al Cargar los datos del objeto.</value>
+  </data>
+  <data name="MensajeItemPlanSuccess" xml:space="preserve">
+    <value>Se realizó la inserción del ítem del plan de forma correcta.</value>
+  </data>
+  <data name="MensajeEncuestaSuccess" xml:space="preserve">
+    <value>Se realizó la inserción de la encuesta de forma correcta.</value>
+  </data>
+  <data name="MensajeMetadataSuccess" xml:space="preserve">
+    <value>Se realizó la inserción del control de forma correcta.</value>
+  </data>
+  <data name="MensajePreguntaSuccess" xml:space="preserve">
+    <value>Se realizó la inserción de la pregunta de forma correcta.</value>
+  </data>
+  <data name="MensajeAuditoriaIngresoSuccess" xml:space="preserve">
+    <value>Se realizó la inserción de la auditoría de forma correcta.</value>
+  </data>
+  <data name="MensajePlanEmpresaSuccess" xml:space="preserve">
+    <value>Se realizó la inserción del plan de la empresa de forma correcta.</value>
+  </data>
+  <data name="MensajePagoPlanSuccess" xml:space="preserve">
+    <value>Se realizó la inserción del pago de forma correcta.</value>
+  </data>
+  <data name="MensajeItemPreguntaSuccess" xml:space="preserve">
+    <value>Se realizó la inserción del ítem de la pregunta de forma correcta</value>
+  </data>
+  <data name="MessageDeleteEncuestaSuccess" xml:space="preserve">
+    <value>La encuesta se ha eliminado Correctamente.</value>
+  </data>
+  <data name="MessageDeleteEncuestaFailed" xml:space="preserve">
+    <value>Se Presento Un Error Al eliminar la Encuesta</value>
+  </data>
+  <data name="MensajeRespuestaFail" xml:space="preserve">
+    <value>Se presento un error en la insercion de la respuesta</value>
+  </data>
+  <data name="MensajeRespuestaSuccess" xml:space="preserve">
+    <value>Se realizó la inserción de la respuesta de forma correcta</value>
+  </data>
+  <data name="MensajeErrorOpcion" xml:space="preserve">
+    <value>Ocurrió un error al guardar una opción de una pregunta de la encuesta.</value>
+  </data>
+  <data name="MensajeErrorPregunta" xml:space="preserve">
+    <value>Ocurrió un error al guardar una pregunta de la encuesta.</value>
+  </data>
+  <data name="MensajeErrorEncuesta" xml:space="preserve">
+    <value>Ocurrió un error al guardar la encuesta.</value>
+  </data>
+</root>

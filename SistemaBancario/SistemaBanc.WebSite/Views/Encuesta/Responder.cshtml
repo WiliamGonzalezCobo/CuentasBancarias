@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "Responder encuesta";
+    Layout = "~/Views/Shared/_EncuestaLayout.cshtml";
+}
+
+<div class="section-body contain-lg">
+    <div class="row">
+        <div class="col-lg-offset-1 col-md-10">
+            <div class="card">
+                <div class="card-head card-head-sm style-primary">
+                    <header id="titulo-encuesta"></header>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12" id="col-encuesta"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        var jsonOriginal;
+
+        $(document).ready(function () {
+
+            $.ajax({
+                url: "@Url.Action("ResponderJSON", "Encuesta")",
+                type: 'POST',
+                data: { idEncuesta: "@ViewBag.IdEncuesta", idEmpresa: "@ViewBag.IdEmpresa" },
+                success: function (JSONResult) {
+                    readJson(JSONResult, false, '/Encuesta/Responder');
+                    jsonOriginal = JSONResult;
+                }
+            });
+
+            $(document).on("blur", "input[type=text]", function () {
+                console.log("cambia input idPregunta es id = " + $(this).attr('id') + " Valor: " + $(this).val());
+                agregarRespuesta(jsonOriginal, $(this).attr('id'), $(this).val(), $(this).prop('type'), true);
+            });
+
+            //$(document).on("blur", "TextArea", function () {
+            //    alert("cambia texArea idPregunta es id = " + $(this).attr('id') + " Valor: " + $(this).val());
+            //});
+
+            $(document).on("click", "input[type=checkbox]", function () {
+                console.log("cambia checkbox id Pregunta es name " + $(this).attr('name') + " Valor: " + $(this).val());
+                agregarRespuesta(jsonOriginal, $(this).attr('name'), $(this).val(), $(this).prop('type'), $(this).prop('checked'));
+            });
+
+            $(document).on("change", "select", function () {
+                console.log("cambia select idPregunta es id " + $(this).attr('id') + " Valor: " + $(this).val());
+                agregarRespuesta(jsonOriginal, $(this).attr('id'), $(this).val(), $(this).prop('type'), true);
+            });
+
+            $(document).on("click", "input[type=radio]", function () {
+                console.log("cambia radio idPregunta es name " + $(this).attr('name') + " Valor: " + $(this).val());
+                agregarRespuesta(jsonOriginal, $(this).attr('name'), $(this).val(), $(this).prop('type'), true);
+            });
+
+            $(document).on("click", "button", function () {
+                console.log("Envia json al controlador " + $(this).attr('name'));
+                if ($(this).attr('name') == "Guardar") {
+                    var uri = '@Url.Action("Responder","Encuesta")';
+                    $.ajax({
+                        url: uri,
+                        data: JSON.stringify(jsonOriginal),
+                        type: 'POST',
+                        contentType: 'application/json',
+                        success: function (data) {
+                            window.location.href = '@Url.Action("EncuestaFinalizada", "Encuesta")';
+                        }
+                    });
+                }
+            });
+        });
+
+    </script>
+}

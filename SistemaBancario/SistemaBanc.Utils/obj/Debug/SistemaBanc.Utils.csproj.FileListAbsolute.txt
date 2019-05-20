@@ -1,0 +1,14 @@
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\bin\Debug\SistemaBanc.Utils.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\bin\Debug\SistemaBanc.Utils.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\obj\Debug\SistemaBanc.Utils.csprojResolveAssemblyReference.cache
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\obj\Debug\SistemaBanc.Utils.Recursos.Mensajes.resources
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\obj\Debug\SistemaBanc.Utils.csproj.GenerateResource.Cache
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\obj\Debug\SistemaBanc.Utils.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Utils\obj\Debug\SistemaBanc.Utils.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.Utils\bin\Debug\SistemaBanc.Utils.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.Utils\bin\Debug\SistemaBanc.Utils.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.Utils\obj\Debug\SistemaBanc.Utils.csprojResolveAssemblyReference.cache
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.Utils\obj\Debug\SistemaBanc.Utils.Recursos.Mensajes.resources
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.Utils\obj\Debug\SistemaBanc.Utils.csproj.GenerateResource.Cache
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.Utils\obj\Debug\SistemaBanc.Utils.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.Utils\obj\Debug\SistemaBanc.Utils.pdb

@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaBanc.ApiAdoNetSysBanc", "ApiAdoNetSysBanc\SistemaBanc.ApiAdoNetSysBanc.csproj", "{BBDA0060-7B82-40B9-83C5-0C15A4AFD4C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAdmin", "WebAdmin\WebAdmin.csproj", "{2BF334D0-45A6-418A-9BF1-4BE23FF321DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MODELOS_ENTITIES", "MODELOS_ENTITIES\MODELOS_ENTITIES.csproj", "{5A02BEA7-266D-4658-8CCB-72159672E928}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Servicios", "1.Servicios", "{66F47330-58A0-4D74-943C-A1E04D2C7C46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.ModelosDatos", "2.ModelosDatos", "{683E9050-9ED5-438B-AEED-7D28AE331209}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.LogicaNegocio", "3.LogicaNegocio", "{14723C4B-9416-4196-8004-A66BEEA27D4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Presentacion", "4.Presentacion", "{1189A748-5334-48A5-8A16-7AA84205DA7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaBanc.LogicaNegocio", "SistemaBanc.LogicaNegocio\SistemaBanc.LogicaNegocio.csproj", "{0441C4EF-C3F6-4A20-82EB-C27E1CF33F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaBanc.Entities", "SistemaBanc.Entities\SistemaBanc.Entities.csproj", "{88A22B6B-C7C0-4BB8-94F1-8D5BA8C8F78D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Transeversales", "5.Transeversales", "{F26FC3DA-E4D7-4D84-BF03-1513F004124D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaBanc.Utils", "SistemaBanc.Utils\SistemaBanc.Utils.csproj", "{3263925E-C58A-4206-8B25-93F6682A6391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaBanc.WebCliente", "SistemaBanc.WebCliente\SistemaBanc.WebCliente.csproj", "{D26BAFFB-55C1-47A9-AEE1-653430D868DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.ScriptsDB", "6.ScriptsDB", "{3F596661-7E92-4218-9228-1DC5C27F971E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Db", "Db", "{EFF287D6-E395-4168-8129-16237EE7DDAA}"
+	ProjectSection(SolutionItems) = preProject
+		DbScripts\Scripts\CracionSps.sql = DbScripts\Scripts\CracionSps.sql
+		DbScripts\Scripts\CreacionTablas.sql = DbScripts\Scripts\CreacionTablas.sql
+		DbScripts\Scripts\Datos.sql = DbScripts\Scripts\Datos.sql
+		DbScripts\Scripts\QuerysUtils.sql = DbScripts\Scripts\QuerysUtils.sql
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBDA0060-7B82-40B9-83C5-0C15A4AFD4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDA0060-7B82-40B9-83C5-0C15A4AFD4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDA0060-7B82-40B9-83C5-0C15A4AFD4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDA0060-7B82-40B9-83C5-0C15A4AFD4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF334D0-45A6-418A-9BF1-4BE23FF321DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF334D0-45A6-418A-9BF1-4BE23FF321DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF334D0-45A6-418A-9BF1-4BE23FF321DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF334D0-45A6-418A-9BF1-4BE23FF321DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A02BEA7-266D-4658-8CCB-72159672E928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A02BEA7-266D-4658-8CCB-72159672E928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A02BEA7-266D-4658-8CCB-72159672E928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A02BEA7-266D-4658-8CCB-72159672E928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0441C4EF-C3F6-4A20-82EB-C27E1CF33F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0441C4EF-C3F6-4A20-82EB-C27E1CF33F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0441C4EF-C3F6-4A20-82EB-C27E1CF33F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0441C4EF-C3F6-4A20-82EB-C27E1CF33F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A22B6B-C7C0-4BB8-94F1-8D5BA8C8F78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A22B6B-C7C0-4BB8-94F1-8D5BA8C8F78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A22B6B-C7C0-4BB8-94F1-8D5BA8C8F78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A22B6B-C7C0-4BB8-94F1-8D5BA8C8F78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3263925E-C58A-4206-8B25-93F6682A6391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3263925E-C58A-4206-8B25-93F6682A6391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3263925E-C58A-4206-8B25-93F6682A6391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3263925E-C58A-4206-8B25-93F6682A6391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D26BAFFB-55C1-47A9-AEE1-653430D868DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26BAFFB-55C1-47A9-AEE1-653430D868DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26BAFFB-55C1-47A9-AEE1-653430D868DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26BAFFB-55C1-47A9-AEE1-653430D868DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBDA0060-7B82-40B9-83C5-0C15A4AFD4C6} = {66F47330-58A0-4D74-943C-A1E04D2C7C46}
+		{2BF334D0-45A6-418A-9BF1-4BE23FF321DF} = {1189A748-5334-48A5-8A16-7AA84205DA7E}
+		{5A02BEA7-266D-4658-8CCB-72159672E928} = {683E9050-9ED5-438B-AEED-7D28AE331209}
+		{0441C4EF-C3F6-4A20-82EB-C27E1CF33F81} = {14723C4B-9416-4196-8004-A66BEEA27D4E}
+		{88A22B6B-C7C0-4BB8-94F1-8D5BA8C8F78D} = {F26FC3DA-E4D7-4D84-BF03-1513F004124D}
+		{3263925E-C58A-4206-8B25-93F6682A6391} = {F26FC3DA-E4D7-4D84-BF03-1513F004124D}
+		{D26BAFFB-55C1-47A9-AEE1-653430D868DA} = {1189A748-5334-48A5-8A16-7AA84205DA7E}
+		{EFF287D6-E395-4168-8129-16237EE7DDAA} = {3F596661-7E92-4218-9228-1DC5C27F971E}
+	EndGlobalSection
+EndGlobal

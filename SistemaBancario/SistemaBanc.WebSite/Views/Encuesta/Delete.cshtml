@@ -1,0 +1,74 @@
+﻿@model SistemaEncuestas.WebSite.Models.EncuestaViewModel
+
+@{
+    ViewBag.Title = "Borrar encuesta";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<section>
+    <div class="section-header">
+        <ol class="breadcrumb">
+            <li class="active">
+                Eliminar encuesta
+            </li>
+        </ol>
+    </div>
+
+    <div class="section-body contain-lg">
+        <div class="row">
+            <div class="col-lg-offset-1 col-md-10">
+                @using (Html.BeginForm("Delete", "Encuesta", FormMethod.Post,
+                new { autocomplete = "off", id = "formDeleteEncuesta", @class = "form form-validate" }))
+                {
+                    @Html.AntiForgeryToken();
+
+                    @Html.HiddenFor(model => model.Id)
+                    @Html.HiddenFor(model => model.IdEmpresa)
+
+                    <div class="card">
+                        <div class="card-head card-head-sm style-primary">
+                            <header>
+                                ¿Está seguro de eliminar la encuesta?
+                            </header>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <p>
+                                    Al eliminar la encuesta, se eliminarán las preguntas y respuestas de la encuesta.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    @Html.DisplayNameFor(model => model.NombreEncuesta)
+                                </div>
+                                <div class="col-sm-10">
+
+                                    @Html.DisplayFor(model => model.NombreEncuesta)
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    @Html.DisplayNameFor(model => model.DescripcionEncuesta)
+                                </div>
+                                <div class="col-sm-10">
+                                    @Html.DisplayFor(model => model.DescripcionEncuesta)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-actionbar">
+                            <div class="card-actionbar-row">
+                                <button id="btnGuardar" name="guardar" type="submit" class="btn btn-raised btn-primary ink-reaction pull-left">
+                                    Eliminar
+                                </button>
+
+                                <a id="btnGuardar" href="javascript:history.back()" class="btn btn-raised btn-danger ink-reaction">
+                                    Cancelar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

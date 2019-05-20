@@ -1,0 +1,24 @@
+﻿@model SistemaBanc.WebCliente.Models.TransaccionModelo
+@{
+    ViewBag.Title = "Transaccion";
+}
+
+<h2>Transaccion Cuenta</h2>
+
+@switch (Model.tipoTransaccion)
+{
+    case 1:
+        @Html.Partial("_PartialRetiro", Model)
+        break;
+    case 2:
+        @Html.Partial("_PartialConsignacion", Model)
+        break;
+    case 3:
+        @Html.Partial("_PartialTrasferencia", Model)
+        break;
+    default:
+        break;
+}
+
+
+

@@ -1,0 +1,130 @@
+﻿@model SistemaEncuestas.WebSite.Models.EncuestaViewModel
+
+@{
+    ViewBag.Title = "Crear encuesta";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<section>
+    <div class="section-header">
+        <ol class="breadcrumb">
+            <li class="active">
+                Crear encuesta
+            </li>
+        </ol>
+    </div>
+
+    <div class="section-body contain-lg">
+        <div class="row">
+            <div class="col-lg-offset-1 col-md-10">
+
+                @using (Html.BeginForm("Crear", "Encuesta", FormMethod.Post,
+                new { autocomplete = "off", id = "formCrearEncuesta", @class = "form form-validate" }))
+                {
+                    @Html.AntiForgeryToken();
+
+                    @Html.HiddenFor(model => model.IdEmpresa)
+
+                    <div class="card">
+                        <div class="card-head card-head-sm style-primary">
+                            <header>
+                                Encuesta
+                            </header>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        @Html.TextBoxFor(model => model.NombreEncuesta, new { @class = "form-control" })
+                                        @Html.LabelFor(model => model.NombreEncuesta)
+                                        @Html.ValidationMessageFor(model => model.NombreEncuesta, "", new { @class = "help-block" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        @Html.TextAreaFor(model => model.DescripcionEncuesta, new { @class = "form-control autosize", rows = "1" })
+                                        @Html.LabelFor(model => model.DescripcionEncuesta)
+                                        @Html.ValidationMessageFor(model => model.DescripcionEncuesta, "", new { @class = "help-block" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <div class="checkbox-inline">
+                                            <label>
+                                                @Html.CheckBox("EsInterno")
+                                                @Html.Label("EsInterno")
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="questions">
+                                @Html.EditorFor(model => model.Preguntas)
+                            </div>
+                        </div>
+                        <div class="card-actionbar">
+                            <div class="card-actionbar-row">
+                                <a id="addQuestion" href="javascript:void(0)" class="btn btn-icon-toggle btn-info ink-reaction pull-left" data-toggle="tooltip" data-placement="top" data-original-title="Agregar pregunta">
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                                <button id="btnGuardar" name="guardar" type="submit" class="btn btn-raised btn-primary ink-reaction">
+                                    Guardar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts {
+    <script>
+        $("#addQuestion").click(function () {
+            var index = $("#questions div.itemQ").length;
+
+            $.ajax({
+                url: "@Url.Action("CrearPregunta", "Encuesta")",
+                type: 'POST',
+                data: {
+                    index: index
+                },
+                success: function (partialResult) {
+                    var result = partialResult.replace("name=\"Id\"", "name=\"Preguntas[" + index + "].Id\"");
+                    result = result.replace("name=\"Eliminado\"", "name=\"Preguntas[" + index + "].Eliminado\"");
+                    result = result.replace("name=\"Descripcion\"", "name=\"Preguntas[" + index + "].Descripcion\"");
+                    result = result.replace("name=\"IdMetadata\"", "name=\"Preguntas[" + index + "].IdMetadata\"");
+                    result = result.replace("name=\"Requerido\"", "name=\"Preguntas[" + index + "].Requerido\"");
+
+                    $("#questions").append(result);
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        });
+    </script>
+
+    @if (!string.IsNullOrWhiteSpace(ViewBag.MensajeError))
+    {
+        <script type="text/javascript">
+            $(document).ready(function () {
+                mensaje("error", "@ViewBag.MensajeError");
+            });
+        </script>
+    }
+
+    @if (!string.IsNullOrWhiteSpace(ViewBag.MensajeSuccess))
+    {
+        <script type="text/javascript">
+            $(document).ready(function () {
+                mensaje("success", "@ViewBag.MensajeSuccess");
+            });
+        </script>
+    }
+}

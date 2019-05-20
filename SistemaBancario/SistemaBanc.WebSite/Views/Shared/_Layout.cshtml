@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title - Poll System</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de gestión de encuestas.">
+    <link href="~/Content/images/poll.png" rel="icon" type="image/png" />
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400italic,300,400,600,700,800' rel='stylesheet' type='text/css' />
+    <link type="text/css" rel="stylesheet" href="~/Content/bootstrap/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/Site.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/core/util.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/font-awesome/font-awesome.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/material-design-iconic/material-design-iconic-font.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/libs/toastr/toastr.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/libs/wizard/wizard.css" />
+
+    <script src="~/Scripts/libs/jquery/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/libs/validation/jquery.validate.min.js"></script>
+    <script src="~/Scripts/libs/validation/jquery.validate.unobtrusive.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="~/Scripts/libs/utils/html5shiv.js"></script>
+    <script type="text/javascript" src="~/Scripts/libs/utils/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="menubar-hoverable header-fixed">
+    <header id="header">
+        <nav role="navigation">
+            <div class="navbar-header">
+                <ul class="header-nav header-nav-options">
+                    <li class="header-nav-brand">
+                        <div class="brand-holder">
+                            <a href="@Url.Action("Index", "Home")" tabindex="-1">
+                                <img src="@Url.Content("~/Content/images/poll.png")" alt="Logo sistema encuestas" />
+                                <span class="text-lg text-bold text-primary span-logo" style="padding-left: 10px;">
+                                    POLL SYSTEM
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <button type="button" class="navbar-toggle collapsed btn btn-icon-toggle menubar-toggle" data-toggle="collapse" data-target=".navbar-main" aria-expanded="false">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-main navbar-right">
+                <ul class="nav navbar-nav padding-ul">
+                    <li>
+                        <a href="@Url.Action("Index", "Home")">
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Precios", "Planes")">
+                            Precios
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Contacto", "Contactenos")">
+                            Contáctenos
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Ingresar <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="@Url.Action("Registrar", "Registro", new { idPrecio = "0" })">
+                                    Regístrate
+                                </a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="@Url.Action("Login", "Usuario")">
+                                    Inicia sesión
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="base">
+        <div id="content">
+            @RenderBody()
+        </div>
+    </div>
+    <footer>
+        <div class="panel-footer">
+            <div class="container">
+                <p class="text-muted">
+                    &copy; @DateTime.Now.Year - <span class="text-bold">Sistema de Encuestas</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/Scripts/libs/jquery/jquery-migrate-3.0.0.min.js"></script>
+    <script src="~/Scripts/libs/jquery-ui/jquery-ui.min.js"></script>
+    <script src="~/Scripts/libs/bootstrap/bootstrap.min.js"></script>
+    <script src="~/Scripts/libs/autosize/jquery.autosize.min.js"></script>
+    <script src="~/Scripts/libs/nanoscroller/jquery.nanoscroller.min.js"></script>
+    <script src="~/Scripts/libs/validation/additional-methods.min.js"></script>
+    <script src="~/Scripts/libs/bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+    <script src="~/Scripts/libs/toastr/toastr.js"></script>
+
+    <script src="~/Scripts/core/source/App.js"></script>
+    <script src="~/Scripts/core/source/AppCard.js"></script>
+    <script src="~/Scripts/core/source/AppForm.js"></script>
+    <script src="~/Scripts/core/source/AppNavigation.js"></script>
+    <script src="~/Scripts/core/source/AppNavSearch.js"></script>
+    <script src="~/Scripts/core/source/AppVendor.js"></script>
+
+    <script src="~/Scripts/core/demo/Demo.js"></script>
+    <script src="~/Scripts/core/demo/DemoFormWizard.js"></script>
+
+    <script src="~/Scripts/custom/ValidacionesCliente.js"></script>
+    <script src="~/Scripts/custom/Mensajes.js"></script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

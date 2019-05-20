@@ -1,0 +1,45 @@
+﻿@model IEnumerable<SistemaBanc.WebCliente.Models.CuentaModel>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_Cuenta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.saldo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_creacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_Cliente)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_Cuenta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.saldo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecha_creacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_Cliente)
+            </td>
+            <td>
+                @Html.ActionLink("Retiro", "Index", "Transaccion", new { idCuenta = item.id_Cuenta, idTipoTran = 1, idCliente = item.id_Cliente }, null) |
+                @Html.ActionLink("Consignacion", "Index", "Transaccion", new { idCuenta = item.id_Cuenta, idTipoTran = 2, idCliente = item.id_Cliente }, null) |
+                @Html.ActionLink("Trasferencia", "Index", "Transaccion", new { idCuenta = item.id_Cuenta, idTipoTran = 3, idCliente = item.id_Cliente }, null) |
+                @Html.ActionLink("Movimientos", "Movimientos", "Transaccion", new { idCuenta = item.id_Cuenta, idCliente = item.id_Cliente }, null)
+            </td>
+        </tr>
+    }
+
+</table>

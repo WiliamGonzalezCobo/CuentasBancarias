@@ -1,0 +1,9 @@
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Entities\bin\Debug\SistemaBanc.Entities.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Entities\bin\Debug\SistemaBanc.Entities.pdb
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Entities\obj\Debug\SistemaBanc.Entities.csprojResolveAssemblyReference.cache
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Entities\obj\Debug\SistemaBanc.Entities.dll
+C:\Users\gonzalezwf\documents\visual studio 2015\Projects\SistemaBancario\SistemaBanc.Entities\obj\Debug\SistemaBanc.Entities.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.Entities\bin\Debug\SistemaBanc.Entities.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.Entities\bin\Debug\SistemaBanc.Entities.pdb
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.Entities\obj\Debug\SistemaBanc.Entities.dll
+D:\RespositoriosGit\SistemaCuentas\SistemaBancario\SistemaBanc.Entities\obj\Debug\SistemaBanc.Entities.pdb

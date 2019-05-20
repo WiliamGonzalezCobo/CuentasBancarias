@@ -1,0 +1,26 @@
+﻿@model  SistemaEncuestas.WebSite.Models.ItemPreguntaViewModel
+
+<div id="@Model.Id" class="row itemO">
+    <div class="col-sm-10">
+        <div class="form-group">
+            @Html.HiddenFor(model => model.Id, new { @id = "hdn_" + Model.Id })
+            @Html.HiddenFor(model => model.Eliminado, new { @id = "hdn_Eliminado_" + Model.Id })
+
+            @Html.TextBoxFor(model => model.Valor, new { @id = "txtValor_" + Model.Id, @class = "form-control" })
+            @Html.LabelFor(model => model.Valor)
+            @Html.ValidationMessageFor(model => model.Valor, "", new { @class = "help-block" })
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <a id="deleteOption_@Model.Id" href="javascript:void(0);" class="btn btn-icon-toggle btn-danger ink-reaction" data-toggle="tooltip" data-placement="top" data-original-title="Eliminar opción">
+            <i class="fa fa-trash"></i>
+        </a>
+    </div>
+</div>
+
+<script>
+    $("#deleteOption_@Model.Id").click(function () {
+        $("#hdn_Eliminado_@Model.Id").val(true);
+        $("#@Model.Id").hide();
+    });
+</script>
